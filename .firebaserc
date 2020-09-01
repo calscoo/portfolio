@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "studentinfo-15e58": {
+      "hosting": {
+        "pk2-angular": [
+          "studentinfo-15e58"
+        ]
+      }
+    }
+  }
+}

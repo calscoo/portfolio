@@ -1,0 +1,52 @@
+<nav class="navbar navbar-expand-lg fixed-top navbar-transparent" color-on-scroll="300" style="background-color: #1c1c1c">
+    <div class="container">
+        <div class="navbar-translate">
+            <a class="navbar-brand" [routerLink]="['/home']">Caleb Olson</a>
+            <button class="navbar-toggler navbar-burger" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" (click)="sidebarToggle()">
+                <span class="navbar-toggler-bar"></span>
+                <span class="navbar-toggler-bar"></span>
+                <span class="navbar-toggler-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" rel="tooltip" title="Star on GitHub" data-placement="bottom">
+                        <i class="fa fa-github"></i>
+                        <p class="d-lg-none">GitHub</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" rel="tooltip" title="Follow me on LinkedIn" data-placement="bottom" href="https://www.linkedin.com/in/calebolson-engineer/" target="_blank">
+                        <i class="fa fa-linkedin"></i>
+                        <p class="d-lg-none">LinkedIn</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" rel="tooltip" title="Follow me on Reddit" data-placement="bottom" href="https://www.reddit.com/user/calscoo" target="_blank">
+                        <i class="fa fa-reddit"></i>
+                        <p class="d-lg-none">Reddit</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" rel="tooltip" title="Follow me on Instagram" data-placement="bottom" href="https://www.instagram.com/calebolson.photo" target="_blank">
+                        <i class="fa fa-instagram"></i>
+                        <p class="d-lg-none">Instagram</p>
+                    </a>
+                </li>
+                <li class="nav-item" *ngIf="!isPage('gallery')">
+                    <a [routerLink]="['/gallery']" class="nav-link">prints</a>
+                </li>
+                <li class="nav-item" *ngIf="!isPage('profile')">
+                    <a [routerLink]="['/profile']" class="nav-link">about</a>
+                </li>
+                <li class="nav-item" *ngIf="!isPage('home')">
+                    <a [routerLink]="['/home']" class="nav-link">home</a>
+                </li>
+<!--                <li class="nav-item" *ngIf="(!cartService.isCartEmpty() || isPage('gallery'))">-->
+<!--                    <app-checkout-modal-component [buttonStyle]="navButtonStyle" [buttonText]="cartService.cartSize()"></app-checkout-modal-component>-->
+<!--                </li>-->
+            </ul>
+        </div>
+    </div>
+</nav>

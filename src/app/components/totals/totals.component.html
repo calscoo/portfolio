@@ -1,0 +1,44 @@
+<div *ngIf="!cartService.isCartEmpty()">
+    <table style="width:100%">
+        <tr>
+            <th>ITEM</th>
+            <th style="padding-left:5px;">DETAILS</th>
+            <th style="padding-left:5px;">PRICE</th>
+        </tr>
+        <tr *ngFor="let print of gallery">
+            <td>{{print.name}}</td>
+            <td style="padding-left:5px;">{{print.size}}</td>
+            <td style="padding-left:5px;">${{print.price}}</td>
+            <td><button type="button" class="btn btn-danger btn-round btn-sm" (click)="cartService.removeItem(print)">X</button></td>
+        </tr>
+        <tr><td><h6 style="color: #1c1c1c;">.</h6></td></tr>
+        <tr>
+            <td *ngIf="promoCodeService.isSuccessPromo()"><h6>SAVINGS</h6></td>
+            <td><h6>TOTAL</h6></td>
+        </tr>
+        <tr>
+            <td *ngIf="promoCodeService.isSuccessPromo()">${{cartService.getSavings()}} ({{cartService.getPercentSaved()}}%)</td>
+            <td>${{cartService.getTotal()}}</td>
+        </tr>
+    </table>
+    <br>
+    <div class="form-group">
+        <h6>Promo Code</h6>
+        <table>
+            <th>
+                <div class="form-group{{promoCodeService.getInputStatus()}}">
+                    <input type="text" class="form-control" id="promoInput" placeholder="Promo Code" style="color: black">
+                </div>
+            </th>
+            <th>
+                <button class="btn btn-danger btn-round btn-sm" (click)="promoCodeService.tryPromo()">USE</button>
+            </th>
+        </table>
+        <div *ngFor="let message of promoCodeService.getPromoMessages()">{{message}}</div>
+    </div>
+    <h6>NOTE: </h6><p style="font-size: 10px">Your total will be rounded up to the next multiple of 5 for the simplicity of redirecting you to <b>Square</b> for the secure transaction.</p>
+</div>
+<div *ngIf="cartService.isCartEmpty()">
+    <br>
+    <h6>your cart is empty.</h6>
+</div>
