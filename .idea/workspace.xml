@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="591a4056-ec7e-4fbc-a107-9523e00e82b5" name="Default Changelist" comment="" />
+    <list default="true" id="591a4056-ec7e-4fbc-a107-9523e00e82b5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/shared/navbar/navbar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/shared/navbar/navbar.component.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,49 +23,13 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>inputSuccess1</find>
-      <find>has-danger</find>
-      <find>failedPromo</find>
-      <find>overflow</find>
-      <find>Thumbnail</find>
-      <find>print-sizes</find>
-      <find>right-side</find>
-      <find>icons</find>
-      <find>fa-heart</find>
-      <find>fa</find>
-      <find>Pick your style</find>
-      <find>getSelectedPrint</find>
-      <find>tim</find>
-      <find>&lt;app-</find>
-      <find>OnInit</find>
-      <find>RouterModule.forRoot</find>
-      <find>backdrop</find>
-      <find>image-rounded</find>
-      <find>rounded</find>
-      <find>follows</find>
-      <find>api.sandbox.paypal</find>
-      <find>purchase</find>
-      <find>app</find>
-      <find>DisclaimerModalComponent</find>
-      <find>PrintDetailsModalContent</find>
-      <find>PrintDetailsModalComponent</find>
-      <find>ConfirmModalComponent</find>
-      <find>CheckoutModalContent</find>
-      <find>CheckoutModalComponent</find>
-      <find>paypal</find>
-    </findStrings>
-    <dirStrings>
-      <dir>C:\Users\scout\Downloads\paper-kit-2-angular-master\paper-kit-2-angular-master</dir>
-      <dir>C:\Users\scout\Downloads\paper-kit-2-angular-master\paper-kit-2-angular-master\src</dir>
-      <dir>C:\Users\scout\IdeaProjects\paper-kit-2-angular-master\src\app\components</dir>
-      <dir>C:\Users\scout\IdeaProjects\paper-kit-2-angular-master</dir>
-      <dir>C:\Users\scout\IdeaProjects\paper-kit-2-angular-master\src</dir>
-    </dirStrings>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1gpivdGq1WyHLJHZgdJzRjNMHUj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -71,7 +40,10 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="C:\Users\scout\IdeaProjects\portfolio\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
@@ -185,35 +157,22 @@
       <workItem from="1596755073256" duration="124000" />
       <workItem from="1596756693182" duration="1489000" />
       <workItem from="1598818168100" duration="736000" />
+      <workItem from="1598916156659" duration="1129000" />
     </task>
     <servers />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>14</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
