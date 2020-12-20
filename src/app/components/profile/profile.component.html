@@ -20,6 +20,17 @@
                 </div>
             </div>
             <br/>
+            <div *ngIf="isDisplayManaged()" class="centerlist">
+                <ul style="list-style-type:none;">
+                    <li><button (click)="openRadarr()" class='btn btn-danger btn-round'>Radarr</button></li>
+                    <li><button (click)="openSonarr()" class='btn btn-danger btn-round'>Sonarr</button></li>
+                    <li><button (click)="openTransmission()" class='btn btn-danger btn-round'>Transmission</button></li>
+                    <li><button (click)="openPlex()" class='btn btn-danger btn-round'>Plex</button></li>
+                    <li><button (click)="openFreeNAS()" class='btn btn-danger btn-round'>FreeNAS</button></li>
+                    <li><button (click)="openOctoPrint()" class='btn btn-danger btn-round'>OctoPrint</button></li>
+                </ul>
+            </div>
+            <br/>
             <h6 class="description" style="text-align: center; color: #f5593d;">Skill sets</h6>
             <div class="nav-tabs-navigation">
                 <div class="nav-tabs-wrapper">
@@ -51,8 +62,8 @@
                             <ng-template ngbTabContent>
                                 <div style="margin-top: -125px;">
 
-                                    <a style="float: left" class="btn btn-link btn-default">1yrs</a>
-                                    <a class="btn btn-link btn-default">2.5yrs</a>
+                                    <a (click)="clickLeft()" style="float: left" class="btn btn-link btn-default">1yrs</a>
+                                    <a (click)="clickCenter()" class="btn btn-link btn-default">2.5yrs</a>
                                     <a style="float: right" class="btn btn-link btn-default">5+yrs</a>
                                     <div class="progress">
                                         <a href="#0" class="btn btn-link btn-danger skill-label">Photography</a>

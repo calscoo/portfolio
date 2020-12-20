@@ -55,3 +55,15 @@
     100% { width: 80%; }
   }
 }
+.centerlist {
+  text-align: center;
+}
+.centerlist ul {
+  display: inline-block;
+  margin: auto;
+  padding: auto;
+}
+.centerlist li {
+  float: left;
+  padding: 2px 5px;
+}
