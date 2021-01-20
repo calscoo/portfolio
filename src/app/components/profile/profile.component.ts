@@ -71,7 +71,7 @@ export class ProfileComponent implements OnInit {
 
     openFreeNAS() {
         window.open(
-            'http://192.168.1.14/',
+            'http://192.168.1.20/',
             '_blank'
         );
     }
