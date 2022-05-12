@@ -9,7 +9,6 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
 
-import { GalleryComponent } from './components/gallery/gallery.component';
 import { ComponentsModule } from './components/components.module';
 
 
@@ -18,7 +17,6 @@ import { ComponentsModule } from './components/components.module';
     AppComponent,
     NavbarComponent,
     FooterComponent,
-    GalleryComponent,
   ],
   imports: [
     BrowserModule,

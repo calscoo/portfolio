@@ -1,6 +1,5 @@
 import { Component, OnInit, ElementRef } from '@angular/core';
-import { Location, LocationStrategy, PathLocationStrategy } from '@angular/common';
-import { CartService } from '../../../services/cart.service';
+import { Location } from '@angular/common';
 
 @Component({
     selector: 'app-navbar',
@@ -12,7 +11,7 @@ export class NavbarComponent implements OnInit {
     private sidebarVisible: boolean;
     private navButtonStyle = 'btn btn-danger btn-round';
 
-    constructor(public location: Location, private element: ElementRef, public cartService: CartService) {
+    constructor(public location: Location, private element: ElementRef) {
         this.sidebarVisible = false;
     }
 
