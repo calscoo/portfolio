@@ -1,2 +1,2 @@
-# portfolio_angular
-Angular - The frontend for the portfolio application.
+# portfolio
+Hugo built personal portfolio site
