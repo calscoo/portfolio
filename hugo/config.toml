@@ -14,7 +14,7 @@ theme = "nightfall"
 
 [params]
 author = "Hugo Nightfall"
-user = "hello"
+user = "you"
 hostname = "gohugo.io"
 
 readingTime = true  # Show reading time on post page
