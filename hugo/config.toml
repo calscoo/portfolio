@@ -13,7 +13,7 @@ theme = "nightfall"
     url = "about"
 
 [params]
-author = "Hugo Nightfall"
+author = "Caleb Olson"
 user = "you"
 hostname = "gohugo.io"
 
@@ -23,19 +23,14 @@ published = true  # Show published data on post page
 [[params.social]]
 key = 0
 name = "github"
-url = "https://github.com/gohugoio"
-
-[[params.social]]
-key = 1
-name = "twitter"
-url = "https://www.example.com"
+url = "https://github.com/calscoo"
 
 [[params.social]]
 key = 2
 name = "linkedin"
-url = "https://www.example.com"
+url = "https://www.linkedin.com/in/calebolson-engineer/"
 
 [[params.social]]
 key = 3
 name = "email"
-url = "mailto:email@example.com"
+url = "mailto:scoutscott13@gmail.com"
