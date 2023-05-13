@@ -19,6 +19,7 @@ Highly skilled and dedicated Platform Engineer with a strong background in softw
 
     * **Responsibilities:**
 
+      * PCI STUFF MAN PCI STUFF!!!! LET'S GOOOOOOOOOOOOOO!!!!!! TODO
       * Developed and maintained AWS infrastructure using Terraform and Kubernetes, ensuring optimal performance and security.
       * Improved IAM policies and user management, segregating permissions by environment and service, which increased security and auditability.
       * Reconfigured Lambdas to run within VPCs, enhancing the security posture of the organization.
@@ -106,6 +107,10 @@ Highly skilled and dedicated Platform Engineer with a strong background in softw
 
     * A simple algorithm for detecting relationships between communities in network datasets.
     * Keywords: Python
+
+  * ### HACKATHONS AT DISPATCH
+
+    * LET'S GOOOOOOOOOOOOOO!!!!! TODO
 
 ## Education
 
