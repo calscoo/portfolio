@@ -1,0 +1,4 @@
+.hugo_build.lock
+hugo/public/
+terraform/.terraform/
+terraform/.terraform.lock.hcl
