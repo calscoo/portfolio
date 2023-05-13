@@ -2,3 +2,4 @@
 hugo/public/
 terraform/.terraform/
 terraform/.terraform.lock.hcl
+.DS_Store
