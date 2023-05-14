@@ -10,6 +10,8 @@ title: "About"
 
 Highly skilled and dedicated Platform Engineer with a strong background in software development, infrastructure management, and cloud computing. I have a proven ability to design, implement, and maintain complex systems while ensuring optimal performance and security. With excellent communication skills and a passion for learning, I am looking for an opportunity to contribute my skills to a dynamic team.
 
+MENTION COST REDUCTION
+
 ## Experience
 
   * ### Dispatch (Aug 2022 - Present)
@@ -19,7 +21,7 @@ Highly skilled and dedicated Platform Engineer with a strong background in softw
 
     * **Responsibilities:**
 
-      * PCI STUFF MAN PCI STUFF!!!! LET'S GOOOOOOOOOOOOOO!!!!!! TODO
+      * PCI STUFF MAN PCI STUFF AND COST!!!! LET'S GOOOOOOOOOOOOOO!!!!!! TODO
       * Developed and maintained AWS infrastructure using Terraform and Kubernetes, ensuring optimal performance and security.
       * Improved IAM policies and user management, segregating permissions by environment and service, which increased security and auditability.
       * Reconfigured Lambdas to run within VPCs, enhancing the security posture of the organization.
