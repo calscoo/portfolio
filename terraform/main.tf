@@ -1,47 +1,47 @@
 
-resource "aws_s3_bucket" "bucket" {
-  bucket = "your_bucket_name"
-}
+resource "aws_amplify_app" "portfolio" {
+  name       = "portfolio"
+  repository = "https://github.com/calscoo/portfolio"
+  access_token = var.github_access_token
 
-resource "aws_s3_bucket_policy" "bucket_policy" {
-  bucket = aws_s3_bucket.bucket.id
-  policy = data.aws_iam_policy_document.bucket_policy.json
-}
+  # The default build_spec added by the Amplify Console for React.
+  build_spec = <<-EOT
+version: 1
+applications:
+  - frontend:
+      phases:
+        build:
+          commands:
+            - hugo
+      artifacts:
+        baseDirectory: public
+        files:
+          - '**/*'
+      cache:
+        paths: []
+    appRoot: hugo
+  EOT
 
-data "aws_iam_policy_document" "bucket_policy" {
-  statement {
-    actions   = ["s3:GetObject"]
-    resources = ["arn:aws:s3:::your_bucket_name/*"]
+  custom_rule {
+    source = "/<*>"
+    status = "404"
+    target = "/index.html"
+  }
 
-    principals {
-      type        = "AWS"
-      identifiers = ["*"]
-    }
+  environment_variables = {
+    AMPLIFY_DIFF_DEPLOY = "false"
+    AMPLIFY_MONOREPO_APP_ROOT = "hugo"
+    _LIVE_UPDATES = "[{\"name\":\"Hugo\",\"pkg\":\"hugo\",\"type\":\"hugo\",\"version\":\"latest\"}]"
   }
 }
 
-resource "aws_s3_bucket_website_configuration" "website" {
-  bucket = aws_s3_bucket.bucket.id
-
-  index_document {
-    suffix = "index.html"
-  }
-
-  error_document {
-    key = "error.html"
-  }
+resource "aws_amplify_branch" "main_branch" {
+  app_id      = aws_amplify_app.portfolio.id
+  branch_name = "main"
 }
 
-resource "aws_s3_bucket_acl" "acl" {
-  bucket = aws_s3_bucket.bucket.id
-  acl    = "public-read"
-}
-
-resource "aws_s3_bucket_public_access_block" "access_block" {
-  bucket = aws_s3_bucket.bucket.id
-
-  block_public_acls   = false
-  block_public_policy = false
-  ignore_public_acls  = false
-  restrict_public_buckets = false
+resource "aws_amplify_webhook" "main_webhook" {
+  app_id      = aws_amplify_app.portfolio.id
+  branch_name = aws_amplify_branch.main_branch.branch_name
+  description = "triggermain"
 }
