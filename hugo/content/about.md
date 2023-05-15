@@ -8,7 +8,7 @@ title: "About"
 * **Location:** Bellevue, WA
 * **Preference:** Remote work only
 
-Highly skilled and dedicated Platform Engineer with a strong background in software development, infrastructure management, and cloud computing. I have a proven ability to design, implement, and maintain complex systems, ensuring optimal performance, security, and built-in cost reduction strategies. With excellent communication skills and a passion for learning, I am looking for an opportunity to contribute my skills to a dynamic team.
+Highly skilled and dedicated Platform Engineer with a strong background in software development, infrastructure management, and cloud computing. I have a proven ability to design, implement, and maintain complex systems, ensuring optimal performance, low cost and security. With excellent communication skills and a passion for learning, I am looking for an opportunity to contribute my skills to a dynamic team.
 
 ## Experience
 
