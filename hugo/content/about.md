@@ -8,7 +8,7 @@ title: "About"
 * **Location:** Bellevue, WA
 * **Preference:** Remote work only
 
-Highly skilled and dedicated Platform Engineer with a strong background in software development, infrastructure management, and cloud computing. I have a proven ability to design, implement, and maintain complex systems while ensuring optimal performance and security. With excellent communication skills and a passion for learning, I am looking for an opportunity to contribute my skills to a dynamic team.
+Highly skilled and dedicated Platform Engineer with a strong background in software development, infrastructure management, and cloud computing. I have a proven ability to design, implement, and maintain complex systems, ensuring optimal performance, security, and built-in cost reduction strategies. With excellent communication skills and a passion for learning, I am looking for an opportunity to contribute my skills to a dynamic team.
 
 ## Experience
 
@@ -19,15 +19,15 @@ Highly skilled and dedicated Platform Engineer with a strong background in softw
 
     * **Responsibilities:**
 
-      * Developed and maintained AWS infrastructure using Terraform and Kubernetes, ensuring optimal performance and security.
-      * Improved IAM policies and user management, segregating permissions by environment and service, which increased security and auditability.
-      * Reconfigured Lambdas to run within VPCs, enhancing the security posture of the organization.
-      * Participated in on-call rotation, promptly addressing and mitigating incidents, ensuring system stability and minimizing downtime.
-      * Led the migration of multiple microservices to Kubernetes ServiceAccount authentication, reducing reliance on AWS IAM access keys.
-      * Streamlined and automated RDS snapshot management, optimizing resource usage and lowering costs.
-      * Conducted security reviews of team repositories, ensuring compliance with best practices and company standards.
-      * Collaborated with the team to plan and implement migration strategies for environment secrets to AWS Secrets Manager.
-      * Implemented external secrets provider in Kubernetes environments, syncing secrets with AWS Secrets Manager and improving security posture.
+      * Develop and maintain AWS infrastructure using Terraform and Kubernetes, ensuring optimal performance, low cost and security.
+      * Improve IAM policies and user management, segregating permissions by environment and service, which increases security and auditability.
+      * Reconfigure Lambdas to run within VPCs, enhancing the security posture of the organization.
+      * Participate in on-call rotation, promptly addressing and mitigating incidents, ensuring system stability and minimizing downtime.
+      * Leads the migration of multiple microservices to Kubernetes ServiceAccount authentication, reducing reliance on AWS IAM access keys.
+      * Streamlines and automates RDS snapshot management, optimizing resource usage and lowering costs.
+      * Conducts security reviews of team repositories, ensuring compliance with best practices and company standards.
+      * Collaborates with the team to plan and implement migration strategies for environment secrets to AWS Secrets Manager.
+      * Implements external secrets provider in Kubernetes environments, syncing secrets with AWS Secrets Manager and improving security posture.
 
   * ### Pedigree Technologies (Jan 2021 - Aug 2022)
 
@@ -36,14 +36,14 @@ Highly skilled and dedicated Platform Engineer with a strong background in softw
 
     * **Responsibilities:**
 
-      * Demonstrates AWS, Linux, OOP, and scripting proficiency.
-      * Builds secure and scalable services in AWS.
-      * Writes dynamic infrastructure as code in Ansible.
+      * Demonstrated AWS, Linux, OOP, and scripting proficiency.
+      * Built secure and scalable services in AWS.
+      * Wrote dynamic infrastructure as code in Ansible.
       * Participated in on-call rotation, promptly addressing and mitigating incidents, ensuring system stability and minimizing downtime.
-      * Automates deployments using Jenkins.
-      * Performs zero downtime security and usability upgrades.
+      * Automated deployments using Jenkins.
+      * Performed zero downtime security and usability upgrades.
       * Miscellaneous automation scripting.
-      * Builds custom Microsoft Teams and Slack integrations.
+      * Built custom Microsoft Teams and Slack integrations.
 
   * ### Pedigree Technologies (Jan 2019 - Jan 2021)
 
@@ -52,10 +52,10 @@ Highly skilled and dedicated Platform Engineer with a strong background in softw
 
     * **Responsibilities:**
 
-      * Backend Java Developer - Develop business logic, database change sets, APIs, and automated testing tools.
+      * Backend Java Developer - Developed business logic, database change sets, APIs, and automated testing tools.
       * Participated in on-call rotation, promptly addressing and mitigating incidents, ensuring system stability and minimizing downtime.
 
-  * ### Geek Sqaud (Aug 2016 - Dec 2018)
+  * ### Geek Squad (Aug 2016 - Dec 2018)
 
     * **Position:** Technology Consultant
     * **Location:** Bismarck, ND
@@ -63,8 +63,8 @@ Highly skilled and dedicated Platform Engineer with a strong background in softw
     * **Responsibilities:**
 
       * Knowledge of advanced computer repair relating to hardware and software.
-      * Explain services and technology to help meet client needs.
-      * Coach the sales team on how to best deliver technological solutions.
+      * Explained services and technology to help meet client needs.
+      * Coached the sales team on how to best deliver technological solutions.
 
 ## Skills
 
