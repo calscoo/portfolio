@@ -19,10 +19,10 @@ Highly skilled and dedicated Platform Engineer with a strong background in softw
 
     * **Responsibilities:**
 
-      * Develop and maintain AWS infrastructure using Terraform and Kubernetes, ensuring optimal performance, low cost and security.
-      * Improve IAM policies and user management, segregating permissions by environment and service, which increases security and auditability.
-      * Reconfigure Lambdas to run within VPCs, enhancing the security posture of the organization.
-      * Participate in on-call rotation, promptly addressing and mitigating incidents, ensuring system stability and minimizing downtime.
+      * Develops and maintain AWS infrastructure using Terraform and Kubernetes, ensuring optimal performance, low cost and security.
+      * Improves IAM policies and user management, segregating permissions by environment and service, which increases security and auditability.
+      * Reconfigures Lambdas to run within VPCs, enhancing the security posture of the organization.
+      * Participates in on-call rotation, promptly addressing and mitigating incidents, ensuring system stability and minimizing downtime.
       * Leads the migration of multiple microservices to Kubernetes ServiceAccount authentication, reducing reliance on AWS IAM access keys.
       * Streamlines and automates RDS snapshot management, optimizing resource usage and lowering costs.
       * Conducts security reviews of team repositories, ensuring compliance with best practices and company standards.
