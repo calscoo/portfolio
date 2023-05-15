@@ -10,8 +10,6 @@ title: "About"
 
 Highly skilled and dedicated Platform Engineer with a strong background in software development, infrastructure management, and cloud computing. I have a proven ability to design, implement, and maintain complex systems while ensuring optimal performance and security. With excellent communication skills and a passion for learning, I am looking for an opportunity to contribute my skills to a dynamic team.
 
-MENTION COST REDUCTION
-
 ## Experience
 
   * ### Dispatch (Aug 2022 - Present)
@@ -21,11 +19,10 @@ MENTION COST REDUCTION
 
     * **Responsibilities:**
 
-      * PCI STUFF MAN PCI STUFF AND COST!!!! LET'S GOOOOOOOOOOOOOO!!!!!! TODO
       * Developed and maintained AWS infrastructure using Terraform and Kubernetes, ensuring optimal performance and security.
       * Improved IAM policies and user management, segregating permissions by environment and service, which increased security and auditability.
       * Reconfigured Lambdas to run within VPCs, enhancing the security posture of the organization.
-      * Participated in on-call rotation, handling incidents and mitigating risks.
+      * Participated in on-call rotation, promptly addressing and mitigating incidents, ensuring system stability and minimizing downtime.
       * Led the migration of multiple microservices to Kubernetes ServiceAccount authentication, reducing reliance on AWS IAM access keys.
       * Streamlined and automated RDS snapshot management, optimizing resource usage and lowering costs.
       * Conducted security reviews of team repositories, ensuring compliance with best practices and company standards.
@@ -42,6 +39,7 @@ MENTION COST REDUCTION
       * Demonstrates AWS, Linux, OOP, and scripting proficiency.
       * Builds secure and scalable services in AWS.
       * Writes dynamic infrastructure as code in Ansible.
+      * Participated in on-call rotation, promptly addressing and mitigating incidents, ensuring system stability and minimizing downtime.
       * Automates deployments using Jenkins.
       * Performs zero downtime security and usability upgrades.
       * Miscellaneous automation scripting.
@@ -55,6 +53,7 @@ MENTION COST REDUCTION
     * **Responsibilities:**
 
       * Backend Java Developer - Develop business logic, database change sets, APIs, and automated testing tools.
+      * Participated in on-call rotation, promptly addressing and mitigating incidents, ensuring system stability and minimizing downtime.
 
   * ### Geek Sqaud (Aug 2016 - Dec 2018)
 
@@ -69,29 +68,51 @@ MENTION COST REDUCTION
 
 ## Skills
 
-  * ### Amazon Web Services (AWS)
-
-    * Proficient with Amazon Linux, EC2, S3, SecretsManager, Route53, and others.
+  * ### Cloud Technologies
+  
+    * Expertise in Amazon Web Services (AWS) including services like EC2, S3, AWS SecretsManager, Route53, IAM, RDS, and Lambda.
 
   * ### Infrastructure as Code
 
-    * Proficient with Terraform and Ansible. Comfortable with AWS CloudFormation.
+    * Proficient in using Terraform and Ansible for infrastructure automation.
+    * Experience with AWS CloudFormation.
+    * Familiarity with Kubernetes for container orchestration.
 
   * ### Continuous Integration/Delivery
 
-    * Builds automated testing pipelines, build pipelines, and branch/tag jobs in Jenkins.
-
+    * Solid experience in Jenkins for automating deployments and building testing pipelines.
+  
   * ### Containerization
 
-    * Comfortable with Docker, Docker Compose, and Portainer.
+    * Skilled in Docker, Docker Compose, and Portainer for creating and managing containers.
+    * Experience in Kubernetes ServiceAccount authentication for microservices.
 
-  * ### Scripting
+  * ### Programming and Scripting
 
-    * Proficient with Bash. Comfortable with Python and others.
+    * Proficient in Java for backend development and Bash for scripting.
+    * Comfortable with Python and other scripting languages.
+    * Experienced in Object-Oriented Programming (OOP).
 
-  * ### Monitoring
+  * ### Monitoring and Security
 
-    * Comfortable with CloudWatch, Kibana, Datadog, Loggly, PagerDuty and others.
+    * Experience with CloudWatch, Kibana, Datadog, Loggly, PagerDuty for system monitoring.
+    * Expertise in security best practices including IAM policies, user management, and VPCs.
+    * Proficient in managing secrets using AWS Secrets Manager and Kubernetes.
+
+  * ### Database Management
+
+    * Familiarity with RDS snapshot management and MySQL for data management.
+
+  * ### Communication and Collaboration
+
+    * Excellent communication skills with a proven track record of collaborating with cross-functional teams.
+    * Experience in developing custom integrations for Microsoft Teams and Slack.
+
+  * ### Other
+
+    * Knowledge of advanced computer repair related to hardware and software.
+    * Proficient in using Angular and Nginx for web development.
+    * Experience in OpenStack for managing cloud computing platforms.
 
 ## Projects
 
@@ -109,10 +130,6 @@ MENTION COST REDUCTION
 
     * A simple algorithm for detecting relationships between communities in network datasets.
     * Keywords: Python
-
-  * ### HACKATHONS AT DISPATCH
-
-    * LET'S GOOOOOOOOOOOOOO!!!!! TODO
 
 ## Education
 
