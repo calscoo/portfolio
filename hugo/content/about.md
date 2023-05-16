@@ -131,20 +131,6 @@ Highly skilled and dedicated Platform Engineer with a strong background in softw
     * A simple algorithm for detecting relationships between communities in network datasets.
     * Keywords: Python
 
-## Education
-
-  * ### North Dakota State University (Fall 2018 - Spring 2021)
-
-    * **Location:** Fargo, ND
-    * **Degree:** BS, Computer Science
-    * **GPA:** 3.7
-
-  * ### Bismarck State University (Fall 2016 - Spring 2018)
-
-    * **Location:** Bismarck, ND
-    * **Degree:** ASSOC, Science
-    * **GPA:** 3.7
-
 ## Certificates & Achievements
 
   * ### NDSU Dean's List
@@ -165,9 +151,23 @@ Highly skilled and dedicated Platform Engineer with a strong background in softw
       * [Fall 2017](https://bismarckstate.meritpages.com/stories/Caleb-Olson-named-to-the-Fall-2017-BSC-President-s-Honor-Roll-/10137948)
       * [Spring 2017](https://bismarckstate.meritpages.com/stories/Caleb-Olson-named-to-the-Spring-2017-BSC-President-s-Honor-Roll-/9102821)
 
-  * ### ICPC Participant
+  * ### ICPC Participant (Spring 2019)
     * Participated in the prestigious International Collegiate Programming Contest (ICPC), showcasing problem-solving skills and programming proficiency.
 
   * ### Hackathon Winner (2023)
     * Winner - "Most Technically Satisfying" - Company-Wide Hackathon
     * As a key contributor in a cross-company team between Dispatch and Youreka, architected an AWS solution to improve frontend user experience during image uploads to Salesforce. Led the design and implementation of a system leveraging AWS Lambda and S3 for image decompression and storage, utilizing Terraform for infrastructure code. Despite challenging circumstances, successfully delivered the project and won the "Most Technically Satisfying" award at the Hackathon, leading to further discussions about moving the project into production.
+
+## Education
+
+  * ### North Dakota State University (Fall 2018 - Spring 2021)
+
+    * **Location:** Fargo, ND
+    * **Degree:** BS, Computer Science
+    * **GPA:** 3.7
+
+  * ### Bismarck State University (Fall 2016 - Spring 2018)
+
+    * **Location:** Bismarck, ND
+    * **Degree:** ASSOC, Science
+    * **GPA:** 3.7
