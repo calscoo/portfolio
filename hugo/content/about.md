@@ -151,7 +151,7 @@ Highly skilled and dedicated Platform Engineer with a strong background in softw
       * [Fall 2017](https://bismarckstate.meritpages.com/stories/Caleb-Olson-named-to-the-Fall-2017-BSC-President-s-Honor-Roll-/10137948)
       * [Spring 2017](https://bismarckstate.meritpages.com/stories/Caleb-Olson-named-to-the-Spring-2017-BSC-President-s-Honor-Roll-/9102821)
 
-  * ### ICPC Participant (Spring 2019)
+  * ### [ICPC Participant (Spring 2019)](https://www.ndsu.edu/cs/about/cs_news/news_archive_2019/)
     * Participated in the prestigious International Collegiate Programming Contest (ICPC), showcasing problem-solving skills and programming proficiency.
 
   * ### Hackathon Winner (2023)
