@@ -1,3 +1,19 @@
+
+provider "aws" {
+  access_key = var.aws_access_key
+  secret_key = var.aws_secret_key
+  region     = "us-east-2"
+}
+
+terraform {
+  backend "s3" {
+    bucket  = "terraform-state"
+    key     = "portfolio.tfstate"
+    encrypt = true
+    region  = "us-east-2"
+  }
+}
+
 variable "aws_access_key" {
   description = "AWS Personal Access Key"
   sensitive   = true
@@ -11,10 +27,4 @@ variable "aws_secret_key" {
 variable "github_access_token" {
   description = "GitHub Access Token"
   sensitive   = true
-}
-
-provider "aws" {
-  access_key = var.aws_access_key
-  secret_key = var.aws_secret_key
-  region     = "us-east-2"
 }
