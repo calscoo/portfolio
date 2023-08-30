@@ -12,9 +12,19 @@ Highly skilled and dedicated Platform Engineer with a strong background in softw
 
 ## Experience
 
-  * ### Dispatch (Aug 2022 - Present)
+  * ### Dispatch (Aug 2023 - Present)
 
-    * **Position:** Platform Engineer
+    * **Position:** Senior DevOps Engineer
+    * **Location:** Remote (Boston, MA)
+
+    * **Responsibilities:**
+
+      * Largerly the same as my previous role as a DevOps Engineer for Dispatch.
+      * Additional responsibilities to come..
+
+  * ### Dispatch (Aug 2022 - Aug 2023)
+
+    * **Position:** DevOps Engineer
     * **Location:** Remote (Boston, MA)
 
     * **Responsibilities:**
@@ -45,7 +55,7 @@ Highly skilled and dedicated Platform Engineer with a strong background in softw
       * Miscellaneous automation scripting.
       * Built custom Microsoft Teams and Slack integrations.
 
-  * ### Pedigree Technologies (Jan 2019 - Jan 2021)
+  * ### Pedigree Technologies (Jan 2020 - Jan 2021)
 
     * **Position:** Software Engineer
     * **Location:** Remote (Fargo, ND)
@@ -54,6 +64,15 @@ Highly skilled and dedicated Platform Engineer with a strong background in softw
 
       * Backend Java Developer - Developed business logic, database change sets, APIs, and automated testing tools.
       * Participated in on-call rotation, promptly addressing and mitigating incidents, ensuring system stability and minimizing downtime.
+
+  * ### Pedigree Technologies (Jan 2019 - Jan 2020)
+
+    * **Position:** Software Engineer Intern
+    * **Location:** Fargo, ND
+
+    * **Responsibilities:**
+
+      * Backend Java Developer - Wrote selunium UI tests, ensuring streamlined automated testing and the stability of our UI.
 
   * ### Geek Squad (Aug 2016 - Dec 2018)
 
