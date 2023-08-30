@@ -15,7 +15,7 @@ Highly skilled and dedicated Senior DevOps Engineer with a strong background in 
   * ### Dispatch (Aug 2023 - Present)
 
     * **Position:** Senior DevOps Engineer
-    * **Location:** Remote (Boston, MA)
+    * **Location:** Boston, MA (Remote)
 
     * **Responsibilities:**
 
@@ -25,7 +25,7 @@ Highly skilled and dedicated Senior DevOps Engineer with a strong background in 
   * ### Dispatch (Aug 2022 - Aug 2023)
 
     * **Position:** DevOps Engineer
-    * **Location:** Remote (Boston, MA)
+    * **Location:** Boston, MA (Remote)
 
     * **Responsibilities:**
 
@@ -42,7 +42,7 @@ Highly skilled and dedicated Senior DevOps Engineer with a strong background in 
   * ### Pedigree Technologies (Jan 2021 - Aug 2022)
 
     * **Position:** DevOps Engineer
-    * **Location:** Remote (Fargo, ND)
+    * **Location:** Fargo, ND (Remote)
 
     * **Responsibilities:**
 
@@ -58,7 +58,7 @@ Highly skilled and dedicated Senior DevOps Engineer with a strong background in 
   * ### Pedigree Technologies (Jan 2020 - Jan 2021)
 
     * **Position:** Software Engineer
-    * **Location:** Remote (Fargo, ND)
+    * **Location:** Fargo, ND (Remote)
 
     * **Responsibilities:**
 
