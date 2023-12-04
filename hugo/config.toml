@@ -17,7 +17,7 @@ author = "Caleb Olson"
 user = "caleb"
 hostname = "gohugo.io"
 title = "calebolson.space"
-field = "Engineering"
+field = "Engineer"
 
 readingTime = true  # Show reading time on post page
 published = true  # Show published data on post page
