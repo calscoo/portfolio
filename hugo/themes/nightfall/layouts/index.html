@@ -20,6 +20,7 @@
                 <div class="indexWrapper">
                     <div>
                         <h1 class="indexHeader">{{ .Site.Params.author }}</h1>
+                        <h2 class="indexHeader">{{ .Site.Params.field }}</h2>
                     </div>
                     {{ if isset .Site.Params "social" }}
                         {{ partial "social.html" . }}

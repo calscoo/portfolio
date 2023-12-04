@@ -32,6 +32,8 @@ Add these params to you `config.toml`
 author = "Mr Hugo"
 user = "hello"
 hostname = "gohugo.io"
+title = "My Website"
+field = "My Field"
 ```
 
 You can also add social links

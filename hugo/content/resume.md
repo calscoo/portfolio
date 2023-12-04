@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "Resume"
 ---
 
 ## Summary

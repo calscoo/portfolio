@@ -8,14 +8,16 @@ theme = "hugo-theme-nightfall"
     weight = 0
     url = "blog"
   [[menu.header]]
-    name = "about"
+    name = "resume"
     weight = 1
-    url = "about"
+    url = "resume"
 
 [params]
 author = "Hugo Nightfall"
 user = "hello"
 hostname = "gohugo.io"
+title = "My Website"
+field = "My Field"
 
 readingTime = true  # Show reading time on post page
 published = true  # Show published data on post page
