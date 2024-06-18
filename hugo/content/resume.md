@@ -164,8 +164,8 @@ Accomplished Senior DevOps Engineer with a passion for delivering business value
     * #### Semesters Awarded
       * [Fall 2020](https://www.ndsu.edu/news/studentnews/deanslistfall2020/nd/)
       * [Spring 2020](https://www.ndsu.edu/news/studentnews/deanslistspring2020/nd/)
-      * [Spring 2019](https://www.ndsu.edu/news/studentnews/deanslistspring2019/nd/)
-      * [Fall 2018](https://www.ndsu.edu/news/studentnews/deanslistfall2018/nd/)
+      * Spring 2019
+      * Fall 2018
 
   * ### BSC President's Honor Roll
     * **Awarder:** Dr. Larry C. Skogen, President
