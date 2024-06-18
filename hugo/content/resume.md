@@ -8,7 +8,7 @@ title: "Resume"
 * **Location:** Greater Seattle Area, WA
 * **Arrangement:** Remote Work Only
 
-Accomplished Senior DevOps Engineer adept at delivering business value through technology. Proven track record in cloud cost optimization, automation, continuous deployment, and security best practices. Skilled in AWS, Terraform, Ansible, Kubernetes, and leading cross-functional initiatives. Passionate about mentoring, communication, collaboration, and fostering a culture of continuous improvement.
+Accomplished Senior DevOps Engineer adept at delivering business value through technology. Proven track record in cloud cost optimization, automation, continuous deployment, and security best practices. Skilled in AWS, Terraform, Ansible, Kubernetes, scripting, development and leading cross-functional initiatives. Strong communicator and collaborator with a passion for mentoring, knowledge sharing and fostering a culture of continuous improvement.
 
 ## Experience
 
