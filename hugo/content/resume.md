@@ -12,29 +12,29 @@ Accomplished Senior DevOps Engineer adept at delivering business value through t
 
 ## Experience
 
-  * ### Dispatch (Aug 2023 - Present)
+  * ### Senior DevOps Engineer (Aug 2023 - Present)
 
-    * **Position:** Senior DevOps Engineer
+    * **Company:** Dispatch
     * **Location:** Boston, MA (Remote)
 
     * **Responsibilities:**
 
       * InfoSec: Spearheaded SOC2/PCI compliance initiatives, led access control improvements, and conducted policy reviews to enhance the company's security posture.
-      * Team Development: Onboarded and mentored junior DevOps engineers, fostering a collaborative knowledge-sharing environment and providing technical training on various technologies.
+      * Team Development: Onboarded and mentored junior DevOps engineers, fostered a collaborative knowledge-sharing environment and provided technical training on various technologies.
       * Strategic Planning: Partnered with stakeholders to develop and prioritize the product roadmap, ensuring alignment with company objectives and driving continuous improvement.
       * Technical Debt Reduction: Proactively identified and documented technical debt, formulated optimization strategies, and led re-architecture efforts for improved performance and scalability.
       * Cross-Functional Collaboration: Served as the DevOps team representative in critical meetings, participated in company-wide committees, and collaborated with external teams to achieve shared goals.
       * Operational Excellence: Led production system maintenance, meticulously planned and executed changes, and ensured rigorous testing in lower environments to minimize downtime and risk.
-      * Pipeline Optimization: Troubleshoot and optimized build pipelines, enhanced pipeline security, and successfully migrated CI/CD processes from Travis CI to GitHub Actions.
+      * Pipeline Optimization: Troubleshot and optimized build pipelines, enhanced pipeline security, and successfully migrated CI/CD processes from Travis CI to GitHub Actions.
       * Cost Optimization: Implemented cost-conscious development practices, spearheaded initiatives to reduce cloud infrastructure costs, and championed long-term optimization projects.
       * Kubernetes Expertise: Established comprehensive monitoring for resource usage, fine-tuned Kubernetes deployments and nodes, and led discussions on optimization strategies to maximize efficiency.
       * Incident Management: Participated in on-call rotation and assisted in incident mitigation.
       * Golang for Infrastructure and Security: Learned and leveraged Go for infrastructure-focused tasks, including building proof-of-concept implementations for backend services, testing service account integrations, improving service-infrastructure interactions, and maintaining Go-based deployment tools.
 
 
-  * ### Dispatch (Aug 2022 - Aug 2023)
+  * ### DevOps Engineer (Aug 2022 - Aug 2023)
 
-    * **Position:** DevOps Engineer
+    * **Company:** Dispatch
     * **Location:** Boston, MA (Remote)
 
     * **Responsibilities:**
@@ -49,9 +49,9 @@ Accomplished Senior DevOps Engineer adept at delivering business value through t
       * Collaborated with the team to plan and implement migration strategies for environment secrets to AWS Secrets Manager.
       * Implemented external secrets provider in Kubernetes environments, syncing secrets with AWS Secrets Manager and improving security posture.
 
-  * ### Pedigree Technologies (Jan 2021 - Aug 2022)
+  * ### DevOps Engineer (Jan 2021 - Aug 2022)
 
-    * **Position:** DevOps Engineer
+    * **Company:** Pedigree Technologies
     * **Location:** Fargo, ND (Remote)
 
     * **Responsibilities:**
@@ -65,9 +65,9 @@ Accomplished Senior DevOps Engineer adept at delivering business value through t
       * Miscellaneous automation scripting.
       * Built custom Microsoft Teams and Slack integrations.
 
-  * ### Pedigree Technologies (Jan 2020 - Jan 2021)
+  * ### Software Engineer (Jan 2020 - Jan 2021)
 
-    * **Position:** Software Engineer
+    * **Company:** Pedigree Technologies
     * **Location:** Fargo, ND (Remote)
 
     * **Responsibilities:**
@@ -75,18 +75,18 @@ Accomplished Senior DevOps Engineer adept at delivering business value through t
       * Backend Java Developer - Developed business logic, database change sets, APIs, and automated testing tools.
       * Participated in on-call rotation, promptly addressing and mitigating incidents, ensuring system stability and minimizing downtime.
 
-  * ### Pedigree Technologies (Jan 2019 - Jan 2020)
+  * ### Software Engineer Intern (Jan 2019 - Jan 2020)
 
-    * **Position:** Software Engineer Intern
+    * **Company:** Pedigree Technologies
     * **Location:** Fargo, ND
 
     * **Responsibilities:**
 
       * Backend Java Developer - Wrote selunium UI tests, ensuring streamlined automated testing and the stability of our UI.
 
-  * ### Geek Squad (Aug 2016 - Dec 2018)
+  * ### Technology Consultant (Aug 2016 - Dec 2018)
 
-    * **Position:** Technology Consultant
+    * **Company:** Geek Squad
     * **Location:** Bismarck, ND
 
     * **Responsibilities:**
