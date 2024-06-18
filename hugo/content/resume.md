@@ -14,7 +14,7 @@ Accomplished Senior DevOps Engineer adept at delivering business value through t
 
   * ### Senior DevOps Engineer (Aug 2023 - Present)
 
-    * **Company:** Dispatch
+    * **Company:** [Dispatch](https://dispatch.me/)
     * **Location:** Boston, MA (Remote)
 
     * **Responsibilities:**
@@ -34,7 +34,7 @@ Accomplished Senior DevOps Engineer adept at delivering business value through t
 
   * ### DevOps Engineer (Aug 2022 - Aug 2023)
 
-    * **Company:** Dispatch
+    * **Company:** [Dispatch](https://dispatch.me/)
     * **Location:** Boston, MA (Remote)
 
     * **Responsibilities:**
@@ -51,7 +51,7 @@ Accomplished Senior DevOps Engineer adept at delivering business value through t
 
   * ### DevOps Engineer (Jan 2021 - Aug 2022)
 
-    * **Company:** Pedigree Technologies
+    * **Company:** [Pedigree Technologies](https://www.pedigreetechnologies.com/){:target="_blank"}
     * **Location:** Fargo, ND (Remote)
 
     * **Responsibilities:**
@@ -67,7 +67,7 @@ Accomplished Senior DevOps Engineer adept at delivering business value through t
 
   * ### Software Engineer (Jan 2020 - Jan 2021)
 
-    * **Company:** Pedigree Technologies
+    * **Company:** [Pedigree Technologies](https://www.pedigreetechnologies.com/)
     * **Location:** Fargo, ND (Remote)
 
     * **Responsibilities:**
@@ -77,7 +77,7 @@ Accomplished Senior DevOps Engineer adept at delivering business value through t
 
   * ### Software Engineer Intern (Jan 2019 - Jan 2020)
 
-    * **Company:** Pedigree Technologies
+    * **Company:** [Pedigree Technologies](https://www.pedigreetechnologies.com/)
     * **Location:** Fargo, ND
 
     * **Responsibilities:**
