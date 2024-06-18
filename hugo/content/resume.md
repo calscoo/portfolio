@@ -8,7 +8,7 @@ title: "Resume"
 * **Location:** Greater Seattle Area, WA
 * **Arrangement:** Remote Work Only
 
-Accomplished Senior DevOps Engineer with a passion for delivering business value through technology. Demonstrated success in leading cross-functional initiatives, optimizing cloud costs, project planning, InfoSec and automating critical processes. Expertise in AWS, Terraform, Kubernetes, security best practices and representing technical teams in strategic meetings. Proven mentor and team leader with a strong focus on knowledge sharing, communication and collaboration. Seeking a senior/lead role where I can drive technical excellence and foster a culture of continuous improvement.
+Accomplished Senior DevOps Engineer with a passion for delivering business value through technology. Demonstrated success in leading cross-functional initiatives, optimizing cloud costs, project planning, InfoSec, and automating critical processes. Expertise in AWS, Terraform, Kubernetes, security best practices, and representing technical teams in strategic meetings. A proven mentor and team leader with a strong focus on knowledge sharing, communication, and collaboration. I am seeking a senior or leadership role where I can drive technical excellence and foster a culture of continuous improvement.
 
 ## Experience
 
@@ -25,11 +25,11 @@ Accomplished Senior DevOps Engineer with a passion for delivering business value
       * Technical Debt Reduction: Proactively identified and documented technical debt, formulated optimization strategies, and led re-architecture efforts for improved performance and scalability.
       * Cross-Functional Collaboration: Served as the DevOps team representative in critical meetings, participated in company-wide committees, and collaborated with external teams to achieve shared goals.
       * Operational Excellence: Led production system maintenance, meticulously planned and executed changes, and ensured rigorous testing in lower environments to minimize downtime and risk.
-      * Pipeline Optimization: Troubleshot and optimized build pipelines, enhanced pipeline security, and successfully migrated CI/CD processes from Travis CI to GitHub Actions.
+      * Pipeline Optimization: Troubleshoot and optimized build pipelines, enhanced pipeline security, and successfully migrated CI/CD processes from Travis CI to GitHub Actions.
       * Cost Optimization: Implemented cost-conscious development practices, spearheaded initiatives to reduce cloud infrastructure costs, and championed long-term optimization projects.
       * Kubernetes Expertise: Established comprehensive monitoring for resource usage, fine-tuned Kubernetes deployments and nodes, and led discussions on optimization strategies to maximize efficiency.
-      * Incident Mangement: Particiapted in on-call rotation and assisted in incident mitigation
-      * Golang for Infrastructure and Security: Learned & leveraged Go for infrastructure-focused tasks, including building proof-of-concept implementations for backend services, testing service account integrations, improving service-infrastructure interactions, and maintaining Go-based deployment tools.
+      * Incident Management: Participated in on-call rotation and assisted in incident mitigation.
+      * Golang for Infrastructure and Security: Learned and leveraged Go for infrastructure-focused tasks, including building proof-of-concept implementations for backend services, testing service account integrations, improving service-infrastructure interactions, and maintaining Go-based deployment tools.
 
 
   * ### Dispatch (Aug 2022 - Aug 2023)
@@ -39,15 +39,15 @@ Accomplished Senior DevOps Engineer with a passion for delivering business value
 
     * **Responsibilities:**
 
-      * Develops and maintain AWS infrastructure using Terraform and Kubernetes, ensuring optimal performance, low cost and security.
-      * Improves IAM policies and user management, segregating permissions by environment and service, which increases security and auditability.
-      * Reconfigures Lambdas to run within VPCs, enhancing the security posture of the company.
-      * Participates in on-call rotation, promptly addressing and mitigating incidents, ensuring system stability and minimizing downtime.
-      * Leads the migration of multiple microservices to Kubernetes ServiceAccount authentication, reducing reliance on AWS IAM access keys.
-      * Streamlines and automates RDS snapshot management, optimizing resource usage and lowering costs.
-      * Conducts security reviews of team repositories, ensuring compliance with best practices and company standards.
-      * Collaborates with the team to plan and implement migration strategies for environment secrets to AWS Secrets Manager.
-      * Implements external secrets provider in Kubernetes environments, syncing secrets with AWS Secrets Manager and improving security posture.
+      * Developed and maintain AWS infrastructure using Terraform and Kubernetes, ensuring optimal performance, low cost and security.
+      * Improved IAM policies and user management, segregated permissions by environment and service which increased security and auditability.
+      * Reconfigured Lambdas to run within VPCs, enhancing the security posture of the company.
+      * Participates in on-call rotation, promptly addressing and mitigating incidents, ensuring system stability, and minimizing downtime.
+      * Led the migration of multiple microservices to Kubernetes ServiceAccount authentication, reducing reliance on AWS IAM access keys.
+      * Streamlined and automates RDS snapshot management, optimizing resource usage and lowering costs.
+      * Conducted security reviews of team repositories, ensuring compliance with best practices and company standards.
+      * Collaborated with the team to plan and implement migration strategies for environment secrets to AWS Secrets Manager.
+      * Implemented external secrets provider in Kubernetes environments, syncing secrets with AWS Secrets Manager and improving security posture.
 
   * ### Pedigree Technologies (Jan 2021 - Aug 2022)
 
@@ -59,7 +59,7 @@ Accomplished Senior DevOps Engineer with a passion for delivering business value
       * Demonstrated AWS, Linux, OOP, and scripting proficiency.
       * Built secure and scalable services in AWS.
       * Wrote dynamic infrastructure as code in Ansible.
-      * Participated in on-call rotation, promptly addressing and mitigating incidents, ensuring system stability and minimizing downtime.
+      * Participated in on-call rotation, promptly addressing and mitigating incidents, ensuring system stability, and minimizing downtime.
       * Automated deployments using Jenkins.
       * Performed zero downtime security and usability upgrades.
       * Miscellaneous automation scripting.
@@ -103,9 +103,9 @@ Accomplished Senior DevOps Engineer with a passion for delivering business value
 
   * ### Infrastructure as Code
 
-    * Proficient in using Terraform and Ansible for infrastructure automation.
-    * Experience with AWS CloudFormation.
-    * Familiarity with Kubernetes for container orchestration.
+  * Proficient in using Terraform and Ansible for infrastructure automation.
+  * Experience with AWS CloudFormation.
+  * Familiarity with Kubernetes for container orchestration.
 
   * ### Continuous Integration/Delivery
 
@@ -155,7 +155,7 @@ Accomplished Senior DevOps Engineer with a passion for delivering business value
 
   * ### Hackathon Winner (2023)
     * Winner - "Most Technically Satisfying" - Company-Wide Hackathon
-    * As a key contributor in a cross-company team between Dispatch and Youreka, architected an AWS solution to improve frontend user experience during image uploads to Salesforce. Led the design and implementation of a system leveraging AWS Lambda and S3 for image decompression and storage, utilizing Terraform for infrastructure code. Despite challenging circumstances, successfully delivered the project and won the "Most Technically Satisfying" award at the Hackathon, leading to further discussions about moving the project into production.
+    * As a key contributor in a cross-company team between Dispatch and Youreka, we architected a AWS solution to improve the frontend user experience during image uploads to Salesforce. Led the design and implementation of a system leveraging AWS Lambda and S3 for image decompression and storage, utilizing Terraform for infrastructure code. Despite challenging circumstances, we successfully delivered the project and won the "Most Technically Satisfying" award at the Hackathon, leading to further discussions about moving the project into production.
 
   * ### NDSU Dean's List
     * **Awarder:** Michael R. Kessler, Dean
