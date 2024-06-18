@@ -51,7 +51,7 @@ Accomplished Senior DevOps Engineer adept at delivering business value through t
 
   * ### DevOps Engineer (Jan 2021 - Aug 2022)
 
-    * **Company:** [Pedigree Technologies](https://www.pedigreetechnologies.com/){:target="_blank"}
+    * **Company:** [Pedigree Technologies](https://www.pedigreetechnologies.com/)
     * **Location:** Fargo, ND (Remote)
 
     * **Responsibilities:**
