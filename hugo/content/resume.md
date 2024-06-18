@@ -5,10 +5,10 @@ title: "Resume"
 ## Summary
 
 * **Contact:** scoutscott13@gmail.com
-* **Location:** Bellevue, WA
-* **Preference:** Remote work only
+* **Location:** Greater Seattle Area, WA
+* **Arrangement:** Remote Work Only
 
-Highly skilled and dedicated Senior DevOps Engineer with a strong background in software development, infrastructure management, and cloud computing. I have a proven ability to design, implement, and maintain complex systems, ensuring optimal performance, low cost and security. With excellent communication skills and a passion for learning, I am looking for an opportunity to contribute my skills to a dynamic team.
+Accomplished Senior DevOps Engineer with a passion for delivering business value through technology. Demonstrated success in leading cross-functional initiatives, optimizing cloud costs, project planning, InfoSec and automating critical processes. Expertise in AWS, Terraform, Kubernetes, security best practices and representing technical teams in strategic meetings. Proven mentor and team leader with a strong focus on knowledge sharing, communication and collaboration. Seeking a senior/lead role where I can drive technical excellence and foster a culture of continuous improvement.
 
 ## Experience
 
@@ -19,8 +19,18 @@ Highly skilled and dedicated Senior DevOps Engineer with a strong background in 
 
     * **Responsibilities:**
 
-      * Largerly the same as my previous role as a DevOps Engineer for Dispatch.
-      * Additional responsibilities to come..
+      * InfoSec: Spearheaded SOC2/PCI compliance initiatives, led access control improvements, and conducted policy reviews to enhance the company's security posture.
+      * Team Development: Onboarded and mentored junior DevOps engineers, fostering a collaborative knowledge-sharing environment and providing technical training on various technologies.
+      * Strategic Planning: Partnered with stakeholders to develop and prioritize the product roadmap, ensuring alignment with company objectives and driving continuous improvement.
+      * Technical Debt Reduction: Proactively identified and documented technical debt, formulated optimization strategies, and led re-architecture efforts for improved performance and scalability.
+      * Cross-Functional Collaboration: Served as the DevOps team representative in critical meetings, participated in company-wide committees, and collaborated with external teams to achieve shared goals.
+      * Operational Excellence: Led production system maintenance, meticulously planned and executed changes, and ensured rigorous testing in lower environments to minimize downtime and risk.
+      * Pipeline Optimization: Troubleshot and optimized build pipelines, enhanced pipeline security, and successfully migrated CI/CD processes from Travis CI to GitHub Actions.
+      * Cost Optimization: Implemented cost-conscious development practices, spearheaded initiatives to reduce cloud infrastructure costs, and championed long-term optimization projects.
+      * Kubernetes Expertise: Established comprehensive monitoring for resource usage, fine-tuned Kubernetes deployments and nodes, and led discussions on optimization strategies to maximize efficiency.
+      * Incident Mangement: Particiapted in on-call rotation and assisted in incident mitigation
+      * Golang for Infrastructure and Security: Learned & leveraged Go for infrastructure-focused tasks, including building proof-of-concept implementations for backend services, testing service account integrations, improving service-infrastructure interactions, and maintaining Go-based deployment tools.
+
 
   * ### Dispatch (Aug 2022 - Aug 2023)
 
@@ -31,7 +41,7 @@ Highly skilled and dedicated Senior DevOps Engineer with a strong background in 
 
       * Develops and maintain AWS infrastructure using Terraform and Kubernetes, ensuring optimal performance, low cost and security.
       * Improves IAM policies and user management, segregating permissions by environment and service, which increases security and auditability.
-      * Reconfigures Lambdas to run within VPCs, enhancing the security posture of the organization.
+      * Reconfigures Lambdas to run within VPCs, enhancing the security posture of the company.
       * Participates in on-call rotation, promptly addressing and mitigating incidents, ensuring system stability and minimizing downtime.
       * Leads the migration of multiple microservices to Kubernetes ServiceAccount authentication, reducing reliance on AWS IAM access keys.
       * Streamlines and automates RDS snapshot management, optimizing resource usage and lowering costs.
@@ -110,17 +120,18 @@ Highly skilled and dedicated Senior DevOps Engineer with a strong background in 
 
     * Proficient in Java for backend development and Bash for scripting.
     * Comfortable with Python and other scripting languages.
+    * Comfortable with Golang.
     * Experienced in Object-Oriented Programming (OOP).
 
   * ### Monitoring and Security
 
-    * Experience with CloudWatch, Kibana, Datadog, Loggly, PagerDuty for system monitoring.
+    * Experience with CloudWatch, Kibana, Datadog, Loggly, and PagerDuty for system monitoring.
     * Expertise in security best practices including IAM policies, user management, and VPCs.
     * Proficient in managing secrets using AWS Secrets Manager and Kubernetes.
 
   * ### Database Management
 
-    * Familiarity with RDS snapshot management and MySQL for data management.
+    * Familiarity with RDS & DocDB snapshot management and MySQL for data management.
 
   * ### Communication and Collaboration
 
@@ -133,24 +144,18 @@ Highly skilled and dedicated Senior DevOps Engineer with a strong background in 
     * Proficient in using Angular and Nginx for web development.
     * Experience in OpenStack for managing cloud computing platforms.
 
-## Projects
-
-  * ### [Citizen Science Aerial Image Aggregation](https://github.com/calscoo/csaia_python)
-
-    * Web application that supports drone flight uploads, extracts metadata from drone images, stores data for efficient querying, and supports building composite images.
-    * Keywords: Python, MySQL, Flask, Angular, OpenStack
-
-  * ### [Personal Website](https://calebolson.space/)
-
-    * A simple portfolio website that showcases my technical ability, as well as enables sales for my artwork. This website is developed, deployed, and maintained by myself.
-    * Keywords: Angular, Nginx, FreeNAS
-
-  * ### [Community Relations](https://github.com/calscoo/communityrelations)
-
-    * A simple algorithm for detecting relationships between communities in network datasets.
-    * Keywords: Python
-
 ## Certificates & Achievements
+
+  * ### AWS Certified Cloud Practitioner
+    * **Awarder:** Amazon Web Services Training and Certification
+    * **Criteria:** >= 70%
+    * **Summary:** Has a fundamental understanding of IT services and their uses in the AWS Cloud. Demonstrate cloud fluency and foundational AWS knowledge. Able to identify essential AWS services necessary to set up AWS-focused projects.
+    * #### Dates Awarded
+      * [Dec. 21, 2023](https://www.credly.com/badges/4dd506a2-05f3-4a54-9319-0083c17a7821)
+
+  * ### Hackathon Winner (2023)
+    * Winner - "Most Technically Satisfying" - Company-Wide Hackathon
+    * As a key contributor in a cross-company team between Dispatch and Youreka, architected an AWS solution to improve frontend user experience during image uploads to Salesforce. Led the design and implementation of a system leveraging AWS Lambda and S3 for image decompression and storage, utilizing Terraform for infrastructure code. Despite challenging circumstances, successfully delivered the project and won the "Most Technically Satisfying" award at the Hackathon, leading to further discussions about moving the project into production.
 
   * ### NDSU Dean's List
     * **Awarder:** Michael R. Kessler, Dean
@@ -173,9 +178,22 @@ Highly skilled and dedicated Senior DevOps Engineer with a strong background in 
   * ### [ICPC Participant (Spring 2019)](https://www.ndsu.edu/cs/about/cs_news/news_archive_2019/)
     * Participated in the prestigious International Collegiate Programming Contest (ICPC), showcasing problem-solving skills and programming proficiency.
 
-  * ### Hackathon Winner (2023)
-    * Winner - "Most Technically Satisfying" - Company-Wide Hackathon
-    * As a key contributor in a cross-company team between Dispatch and Youreka, architected an AWS solution to improve frontend user experience during image uploads to Salesforce. Led the design and implementation of a system leveraging AWS Lambda and S3 for image decompression and storage, utilizing Terraform for infrastructure code. Despite challenging circumstances, successfully delivered the project and won the "Most Technically Satisfying" award at the Hackathon, leading to further discussions about moving the project into production.
+## Projects
+
+  * ### [Citizen Science Aerial Image Aggregation](https://github.com/calscoo/csaia_python)
+
+    * Web application that supports drone flight uploads, extracts metadata from drone images, stores data for efficient querying, and supports building composite images.
+    * Keywords: Python, MySQL, Flask, Angular, OpenStack
+
+  * ### [Personal Website](https://calebolson.space/)
+
+    * A simple portfolio website that showcases my technical ability. This website is developed, deployed in AWS, and maintained by myself.
+    * Keywords: Golang, AWS, Hugo
+
+  * ### [Community Relations](https://github.com/calscoo/communityrelations)
+
+    * A simple algorithm for detecting relationships between communities in network datasets.
+    * Keywords: Python
 
 ## Education
 
