@@ -19,7 +19,7 @@ Accomplished Senior DevOps Engineer adept at delivering business value through t
 
     * **Responsibilities:**
 
-      * InfoSec: Spearheaded SOC2/PCI compliance initiatives, led access control improvements, and conducted policy reviews to enhance the company's security posture.
+      * InfoSec: Spearheaded SOC2/PCI compliance initiatives, led access control improvements, and conducted policy reviews.
       * Team Development: Onboarded and mentored junior DevOps engineers, fostered a collaborative knowledge-sharing environment and provided technical training on various technologies.
       * Strategic Planning: Partnered with stakeholders to develop and prioritize the product roadmap, ensuring alignment with company objectives and driving continuous improvement.
       * Technical Debt Reduction: Proactively identified and documented technical debt, formulated optimization strategies, and led re-architecture efforts for improved performance and scalability.
