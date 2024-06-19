@@ -100,49 +100,51 @@ Accomplished Senior DevOps Engineer adept at delivering business value through t
   * ### Cloud Technologies
   
     * Expertise in Amazon Web Services (AWS) including services like EC2, S3, AWS SecretsManager, Route53, IAM, RDS, and Lambda.
+    * Profienct in Kubernetes Cluster Management including tuning nodes and deployments for optimal efficiency.
 
   * ### Infrastructure as Code
 
-  * Proficient in using Terraform and Ansible for infrastructure automation.
-  * Experience with AWS CloudFormation.
-  * Familiarity with Kubernetes for container orchestration.
+    * Proficient in using Terraform and Ansible.
+    * Experience with AWS CloudFormation.
 
   * ### Continuous Integration/Delivery
 
-    * Solid experience in Jenkins for automating deployments and building testing pipelines.
+    * Proficient in Jenkins, Travis CI, and GitHub Actions.
   
   * ### Containerization
 
     * Skilled in Docker, Docker Compose, and Portainer for creating and managing containers.
-    * Experience in Kubernetes ServiceAccount authentication for microservices.
 
   * ### Programming and Scripting
 
-    * Proficient in Java for backend development and Bash for scripting.
-    * Comfortable with Python and other scripting languages.
+    * Proficient in Java.
+    * Proficient in Python and Bash.
     * Comfortable with Golang.
     * Experienced in Object-Oriented Programming (OOP).
 
   * ### Monitoring and Security
 
-    * Experience with CloudWatch, Kibana, Datadog, Loggly, and PagerDuty for system monitoring.
-    * Expertise in security best practices including IAM policies, user management, and VPCs.
-    * Proficient in managing secrets using AWS Secrets Manager and Kubernetes.
+    * Proficient with CloudWatch, Kibana, Datadog, Loggly, and PagerDuty for system monitoring.
+    * Expertise in security best practices and an InfoSec participant.
 
   * ### Database Management
 
-    * Familiarity with RDS & DocDB snapshot management and MySQL for data management.
+    * Proficient with RDS & DocDB snapshot management
+    * Comfortable with MySQL.
 
   * ### Communication and Collaboration
 
     * Excellent communication skills with a proven track record of collaborating with cross-functional teams.
-    * Experience in developing custom integrations for Microsoft Teams and Slack.
+    * Proficient in developing custom integrations for Microsoft Teams and Slack.
 
   * ### Other
 
     * Knowledge of advanced computer repair related to hardware and software.
-    * Proficient in using Angular and Nginx for web development.
-    * Experience in OpenStack for managing cloud computing platforms.
+    * Experience with FreeNAS and TrueNAS
+    * Expertise in Linux OS
+    * Proficient in ZFS
+    * Experience with using Angular and Nginx for web development.
+    * Experience with OpenStack for managing cloud computing platforms.
 
 ## Certificates & Achievements
 
