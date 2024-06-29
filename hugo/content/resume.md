@@ -4,6 +4,7 @@ title: "Resume"
 
 ## Summary
 
+* **Name:** Caleb Olson
 * **Contact:** scoutscott13@gmail.com
 * **Location:** Greater Seattle Area, WA
 * **Arrangement:** Remote/Hybrid Work Preferred
