@@ -1,4 +1,4 @@
-name: Portfolio Wesbite Pipeline
+name: Portfolio Wesbite Terraform
 
 on:
   workflow_dispatch:
@@ -8,12 +8,12 @@ on:
         required: true
         type: choice
         options:
-        - "deploy"
-        - "teardown"
+        - "apply"
+        - "destroy"
 
 jobs:
-  deploy:
-    if: ${{ github.event.inputs.jobs == 'deploy' }}
+  apply:
+    if: ${{ github.event.inputs.jobs == 'apply' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -39,8 +39,8 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         working-directory: terraform
-  teardown:
-    if: ${{ github.event.inputs.jobs == 'teardown' }}
+  destroy:
+    if: ${{ github.event.inputs.jobs == 'destroy' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
