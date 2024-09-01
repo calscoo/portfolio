@@ -42,6 +42,8 @@ applications:
 }
 
 resource "aws_amplify_branch" "main_branch" {
+  framework   = "Web"
+  stage       = "PRODUCTION"
   app_id      = aws_amplify_app.portfolio.id
   branch_name = "main"
 }
