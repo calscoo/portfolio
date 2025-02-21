@@ -149,6 +149,20 @@ Accomplished Senior DevOps Engineer adept at delivering business value through t
 
 ## Certificates & Achievements
 
+  * ### CKAD: Certified Kubernetes Application Developer
+    * **Awarder:** The Linux Foundation
+    * **Criteria:** >= 66%
+    * **Summary:** Earners of this designation demonstrated the skills, knowledge and competencies to perform the responsibilities of a Kubernetes Application Developer. Earners are able to define application resources and use core primitives to build, monitor, and troubleshoot scalable applications and tools in Kubernetes. The skills and knowledge demonstrated by earners include Core Concepts, Configuration, Multi-Container Pods, Observability, Pod Design, Services & Networking, State Persistence.
+    * #### Dates Awarded
+      * [Feb. 20, 2025](https://www.credly.com/badges/3788e600-8834-45ba-9e72-afc41ec09979/public_url)
+
+  * ### Mountain Mover Award
+    * **Awarder:** DispatchMe
+    * **Criteria:** Anonymous peer nominations across the company
+    * **Summary:** Awarded quarterly to a single employee based on anonymous peer nominations across the company and a rigorous committee review, recognizing outstanding contributions and exceeding expectations.
+    * #### Dates Awarded
+      * [Nov. 20, 2024](https://www.linkedin.com/posts/dispatch-me_excellence-innovation-teamwork-activity-7252779369612341249-VjRp?utm_source=share&utm_medium=member_desktop&rcm=ACoAACic7WsBCs0_O-WDF_4Wu31yfJB_WYNjHgA)
+
   * ### AWS Certified Cloud Practitioner
     * **Awarder:** Amazon Web Services Training and Certification
     * **Criteria:** >= 70%
@@ -156,9 +170,12 @@ Accomplished Senior DevOps Engineer adept at delivering business value through t
     * #### Dates Awarded
       * [Dec. 21, 2023](https://www.credly.com/badges/4dd506a2-05f3-4a54-9319-0083c17a7821)
 
-  * ### Hackathon Winner (2023)
-    * Winner - "Most Technically Satisfying" - Company-Wide Hackathon
-    * As a key contributor in a cross-company team between Dispatch and Youreka, we architected a AWS solution to improve the frontend user experience during image uploads to Salesforce. Led the design and implementation of a system leveraging AWS Lambda and S3 for image decompression and storage, utilizing Terraform for infrastructure code. Despite challenging circumstances, we successfully delivered the project and won the "Most Technically Satisfying" award at the Hackathon, leading to further discussions about moving the project into production.
+  * ### Hackathon Winner
+    * **Awarder:** DispatchMe
+    * **Criteria:** Most Technically Satisfying
+    * **Summary:** As a key contributor in a cross-company team between Dispatch and Youreka, we architected a AWS solution to improve the frontend user experience during image uploads to Salesforce. I led the design and implementation of a system leveraging AWS Lambda and S3 for image decompression and storage, utilizing Terraform for infrastructure code. Despite challenging circumstances, we successfully delivered the project and won the "Most Technically Satisfying" award at the Hackathon, leading to further discussions about moving the project into production.
+    * #### Dates Awarded
+      * Apr. 21, 2023
 
   * ### NDSU Dean's List
     * **Awarder:** Michael R. Kessler, Dean
