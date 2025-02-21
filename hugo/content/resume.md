@@ -187,6 +187,11 @@ Accomplished Senior DevOps Engineer adept at delivering business value through t
       * Spring 2019
       * Fall 2018
 
+  * ### ICPC Participant
+    * **Summary:** Participated in the prestigious International Collegiate Programming Contest (ICPC), showcasing problem-solving skills and programming proficiency.
+    * #### Semesters Attended
+      * [Spring 2019](https://www.ndsu.edu/cs/about/cs_news/news_archive_2019/)
+
   * ### BSC President's Honor Roll
     * **Awarder:** Dr. Larry C. Skogen, President
     * **Criteria:** Average semester GPA >= 3.5
@@ -194,11 +199,6 @@ Accomplished Senior DevOps Engineer adept at delivering business value through t
     * #### Semesters Awarded
       * [Fall 2017](https://bismarckstate.meritpages.com/stories/Caleb-Olson-named-to-the-Fall-2017-BSC-President-s-Honor-Roll-/10137948)
       * [Spring 2017](https://bismarckstate.meritpages.com/stories/Caleb-Olson-named-to-the-Spring-2017-BSC-President-s-Honor-Roll-/9102821)
-
-  * ### ICPC Participant
-    * **Summary:** Participated in the prestigious International Collegiate Programming Contest (ICPC), showcasing problem-solving skills and programming proficiency.
-    * #### Semesters Attended
-      * [Spring 2019](https://www.ndsu.edu/cs/about/cs_news/news_archive_2019/)
 
 ## Projects
 
