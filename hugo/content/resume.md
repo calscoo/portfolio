@@ -147,7 +147,7 @@ Accomplished Senior DevOps Engineer adept at delivering business value through t
     * Experience with using Angular and Nginx for web development.
     * Experience with OpenStack for managing cloud computing platforms.
 
-## Certificates & Achievements
+## Certificates, Awards & Achievements
 
   * ### CKAD: Certified Kubernetes Application Developer
     * **Awarder:** The Linux Foundation
@@ -195,8 +195,10 @@ Accomplished Senior DevOps Engineer adept at delivering business value through t
       * [Fall 2017](https://bismarckstate.meritpages.com/stories/Caleb-Olson-named-to-the-Fall-2017-BSC-President-s-Honor-Roll-/10137948)
       * [Spring 2017](https://bismarckstate.meritpages.com/stories/Caleb-Olson-named-to-the-Spring-2017-BSC-President-s-Honor-Roll-/9102821)
 
-  * ### [ICPC Participant (Spring 2019)](https://www.ndsu.edu/cs/about/cs_news/news_archive_2019/)
-    * Participated in the prestigious International Collegiate Programming Contest (ICPC), showcasing problem-solving skills and programming proficiency.
+  * ### ICPC Participant
+    * **Summary:** Participated in the prestigious International Collegiate Programming Contest (ICPC), showcasing problem-solving skills and programming proficiency.
+    * #### Semesters Attended
+      * [Spring 2019](https://www.ndsu.edu/cs/about/cs_news/news_archive_2019/)
 
 ## Projects
 
