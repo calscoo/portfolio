@@ -12,7 +12,7 @@ applications:
       phases:
         preBuild:
           commands:
-            - yum install -y pango gdk-pixbuf2 liberation-sans-fonts liberation-serif-fonts
+            - sudo yum install -y pango gdk-pixbuf2 liberation-sans-fonts liberation-serif-fonts
             - python3 -m pip install weasyprint markdown
             - mkdir -p static
             - python3 scripts/generate_resume_pdf.py
