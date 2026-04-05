@@ -1,5 +1,6 @@
 ---
 title: "Resume"
+type: "resume"
 ---
 
 ## Summary

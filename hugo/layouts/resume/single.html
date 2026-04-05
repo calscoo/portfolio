@@ -1,0 +1,32 @@
+{{ define "title"}}
+{{ .Title }} | {{ .Site.Params.author }}
+{{ end }}
+
+{{ define "main" }}
+<div class="postWrapper">
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+        <h1>{{ .Title }}</h1>
+        <a href="/resume.pdf" download class="download-btn">Download PDF</a>
+    </div>
+    <div>
+        {{ .Content }}
+    </div>
+</div>
+<style>
+.download-btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #3366cc;
+    color: #f8f8ff !important;
+    font-family: 'Fira Mono', monospace;
+    font-size: 0.85rem;
+    text-decoration: none;
+    border-radius: 4px;
+    white-space: nowrap;
+    transition: background-color 0.2s;
+}
+.download-btn:hover {
+    background-color: #4477dd;
+}
+</style>
+{{ end }}
