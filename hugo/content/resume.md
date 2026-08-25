@@ -22,7 +22,8 @@ Senior DevOps Engineer building AI agent platforms on production infrastructure.
       * LLM Cost & Reliability Engineering: Engineered prompt caching, server-side context compaction, token accounting, and BM25 deferred tool discovery to keep an always-on agent affordable, and instrumented it with Datadog dashboards and structured logging.
       * AI Guardrails: Implemented role-based tool permissions, cross-platform identity enrichment (Slack/Atlassian/GitHub), and gated kubectl/AWS execution so an org-wide agent operates within least-privilege boundaries.
       * InfoSec: Spearheaded SOC2/PCI compliance initiatives, led access control improvements, and conducted policy reviews.
-      * Pipeline Optimization: Migrated CI/CD from Travis CI to GitHub Actions and hardened pipeline security with password-less authentication.
+      * Secretless Authentication: Replaced database passwords with IAM auth for DocumentDB and RDS Postgres atop Kubernetes workload identity, and cut stored credentials from CI/CD with OIDC federation to AWS and a GitHub App issuing short-lived tokens.
+      * Pipeline Optimization: Migrated CI/CD from Travis CI to GitHub Actions.
       * Cost Optimization: Championed cost-conscious development practices and led initiatives that reduced cloud infrastructure spend.
       * Operational Excellence: Owned production system maintenance and change management, with rigorous testing in lower environments, and participate in the on-call rotation.
       * Leadership: Mentored junior DevOps engineers and partnered with stakeholders to prioritize the infrastructure and AI roadmap.
