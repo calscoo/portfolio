@@ -19,8 +19,8 @@ CSS = """
 }
 body {
     font-family: 'Liberation Sans', 'Helvetica Neue', Arial, sans-serif;
-    font-size: 10pt;
-    line-height: 1.35;
+    font-size: 9.5pt;
+    line-height: 1.3;
     color: #222;
 }
 h1 {
@@ -34,7 +34,7 @@ h2 {
     color: #1a1a2e;
     border-bottom: 1.5px solid #3366cc;
     padding-bottom: 3px;
-    margin-top: 18px;
+    margin-top: 14px;
     margin-bottom: 8px;
 }
 h3 {
@@ -54,12 +54,12 @@ a {
     text-decoration: none;
 }
 ul {
-    margin-top: 4px;
-    margin-bottom: 4px;
+    margin-top: 3px;
+    margin-bottom: 3px;
     padding-left: 18px;
 }
 li {
-    margin-bottom: 2px;
+    margin-bottom: 1px;
 }
 p {
     margin-top: 4px;
