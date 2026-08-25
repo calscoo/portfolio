@@ -1,17 +1,16 @@
 #!/usr/bin/env python3
-"""Convert resume.md to a styled PDF using weasyprint."""
+"""Convert resume.md and portfolio.md to styled PDFs using weasyprint."""
 import os
 import re
 
 import markdown
 from weasyprint import HTML
 
-with open("content/resume.md", "r") as f:
-    raw = f.read()
-
-content = re.sub(r"^---\n.*?\n---\n", "", raw, flags=re.DOTALL)
-
-html_body = markdown.markdown(content, extensions=["extra"])
+# (content file, output pdf, prepend the front-matter title as a heading)
+PAGES = [
+    ("content/resume.md", "static/resume.pdf", False),
+    ("content/portfolio.md", "static/portfolio.pdf", True),
+]
 
 CSS = """
 @page {
@@ -23,6 +22,12 @@ body {
     font-size: 10pt;
     line-height: 1.35;
     color: #222;
+}
+h1 {
+    font-size: 17pt;
+    color: #1a1a2e;
+    margin-top: 0;
+    margin-bottom: 8px;
 }
 h2 {
     font-size: 14pt;
@@ -65,7 +70,22 @@ strong {
 }
 """
 
-html_doc = f"""<!DOCTYPE html>
+
+def generate(md_path, pdf_path, include_title):
+    with open(md_path, "r") as f:
+        raw = f.read()
+
+    front_matter = re.match(r"^---\n(.*?)\n---\n", raw, flags=re.DOTALL)
+    content = raw[front_matter.end():] if front_matter else raw
+
+    if include_title and front_matter:
+        title = re.search(r'^title:\s*"?([^"\n]+)"?', front_matter.group(1), flags=re.MULTILINE)
+        if title:
+            content = f"# {title.group(1)}\n\n{content}"
+
+    html_body = markdown.markdown(content, extensions=["extra"])
+
+    html_doc = f"""<!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
@@ -76,6 +96,10 @@ html_doc = f"""<!DOCTYPE html>
 </body>
 </html>"""
 
+    HTML(string=html_doc).write_pdf(pdf_path)
+    print(f"Successfully generated {pdf_path}")
+
+
 os.makedirs("static", exist_ok=True)
-HTML(string=html_doc).write_pdf("static/resume.pdf")
-print("Successfully generated static/resume.pdf")
+for md_path, pdf_path, include_title in PAGES:
+    generate(md_path, pdf_path, include_title)

@@ -3,10 +3,11 @@
 {{ end }}
 
 {{ define "main" }}
+{{ $pdf := printf "/%s.pdf" .File.ContentBaseName }}
 <div class="postWrapper">
     <div style="display: flex; justify-content: space-between; align-items: center;">
         <h1>{{ .Title }}</h1>
-        <a href="/resume.pdf" download class="download-btn">Download PDF</a>
+        <a href="{{ $pdf }}" download class="download-btn">Download PDF</a>
     </div>
     <div>
         {{ .Content }}

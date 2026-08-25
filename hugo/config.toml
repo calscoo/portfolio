@@ -8,8 +8,12 @@ theme = "nightfall"
     weight = 0
     url = "blog"
   [[menu.header]]
-    name = "resume"
+    name = "portfolio"
     weight = 1
+    url = "portfolio"
+  [[menu.header]]
+    name = "resume"
+    weight = 2
     url = "resume"
 
 [params]

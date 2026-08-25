@@ -1,6 +1,6 @@
 ---
 title: "Resume"
-type: "resume"
+type: "pdf-page"
 ---
 
 ## Summary
@@ -10,7 +10,7 @@ type: "resume"
 * **Location:** Greater Seattle Area, WA
 * **Arrangement:** Remote/Hybrid Work Preferred
 
-Accomplished Senior DevOps Engineer adept at delivering business value through technology. Proven track record in cloud cost optimization, automation, continuous deployment, and security best practices. Skilled in AWS, Terraform, Ansible, Kubernetes, scripting, development and leading cross-functional initiatives. Strong communicator and collaborator with a passion for mentoring, knowledge sharing and fostering a culture of continuous improvement.
+Senior DevOps Engineer building AI agent platforms on production infrastructure. Designed, built, and operate an AI assistant used daily across an engineering organization, an Anthropic-API agent platform spanning Slack, GitHub, and Jira that analyzes code, opens pull requests, and is progressing toward autonomous ticket-to-PR workflows. That work sits on a proven DevOps foundation: AWS, Terraform, Kubernetes, CI/CD, cloud cost optimization, and security best practices. Strong communicator with a track record of mentoring, knowledge sharing, and leading cross-functional initiatives.
 
 ## Experience
 
@@ -21,18 +21,21 @@ Accomplished Senior DevOps Engineer adept at delivering business value through t
 
     * **Responsibilities:**
 
+      * AI Agent Platform: Designed, built, and operate [Patchy](https://www.calebolson.space/portfolio), an AI assistant for Product & Engineering built on the Anthropic Messages API (Kubernetes-deployed, Redis-backed, Datadog-monitored), handling Jira, release, code, infrastructure, and incident-response work from Slack, GitHub, and Jira with a single conversation identity across all three surfaces.
+      * Agentic Coding Workflows: Embedded Claude Code sessions in the platform so the agent analyzes repos, branches, commits, and opens pull requests from a Slack mention. Built a reusable skills system backed by S3 and integrated LSP-based code intelligence.
+      * Autonomous Agents: Driving the shift from on-mention to autonomous work, including Jira sprint-queue execution where the agent works tickets end to end, and a LangGraph/LangSmith-based delegation service targeting parallel Claude Code workers behind eval gates with human review points.
+      * LLM Cost & Reliability Engineering: Engineered prompt caching, server-side context compaction, token accounting, and BM25 deferred tool discovery to keep an always-on agent affordable, and instrumented it with Datadog dashboards and structured logging.
+      * AI Guardrails: Implemented role-based tool permissions, cross-platform identity enrichment (Slack/Atlassian/GitHub), and gated kubectl/AWS execution so an org-wide agent operates within least-privilege boundaries.
       * InfoSec: Spearheaded SOC2/PCI compliance initiatives, led access control improvements, and conducted policy reviews.
-      * Team Development: Onboarded and mentored junior DevOps engineers, fostered a collaborative knowledge-sharing environment and provided technical training on various technologies.
-      * Strategic Planning: Partnered with stakeholders to develop and prioritize the product roadmap, ensuring alignment with company objectives and driving continuous improvement.
-      * Technical Debt Reduction: Proactively identified and documented technical debt, formulated optimization strategies, and led re-architecture efforts for improved performance and scalability.
-      * Cross-Functional Collaboration: Served as the DevOps team representative in critical meetings, participated in company-wide committees, and collaborated with external teams to achieve shared goals.
-      * Operational Excellence: Led production system maintenance, meticulously planned and executed changes, and ensured rigorous testing in lower environments to minimize downtime and risk.
-      * Pipeline Optimization: Troubleshot and optimized build pipelines, enhanced pipeline security, and successfully migrated CI/CD processes from Travis CI to GitHub Actions.
-      * Cost Optimization: Implemented cost-conscious development practices, spearheaded initiatives to reduce cloud infrastructure costs, and championed long-term optimization projects.
-      * Kubernetes Expertise: Established comprehensive monitoring for resource usage, fine-tuned Kubernetes deployments and nodes, and led discussions on optimization strategies to maximize efficiency.
-      * Incident Management: Participated in on-call rotation and assisted in incident mitigation.
-      * Golang for Infrastructure and Security: Learned and leveraged Go for infrastructure-focused tasks, including building proof-of-concept implementations for backend services, testing service account integrations, improving service-infrastructure interactions, and maintaining Go-based deployment tools.
-
+      * Team Development: Onboarded and mentored junior DevOps engineers and provided technical training across the stack.
+      * Strategic Planning: Partnered with stakeholders to develop and prioritize the product roadmap, aligning infrastructure and AI initiatives with company objectives.
+      * Technical Debt Reduction: Identified and documented technical debt, formulated optimization strategies, and led re-architecture efforts for performance and scalability.
+      * Operational Excellence: Led production system maintenance and change management, with rigorous testing in lower environments to minimize downtime and risk.
+      * Pipeline Optimization: Migrated CI/CD from Travis CI to GitHub Actions and hardened pipeline security.
+      * Cost Optimization: Championed cost-conscious development practices and led initiatives that reduced cloud infrastructure spend.
+      * Kubernetes Expertise: Established resource-usage monitoring and tuned deployments and nodes for efficiency.
+      * Incident Management: Participate in the on-call rotation and incident mitigation.
+      * Golang for Infrastructure: Leveraged Go for infrastructure and security tasks, including proof-of-concept backend services, service-account integration testing, and Go-based deployment tooling.
 
   * ### DevOps Engineer (Aug 2022 - Aug 2023)
 
@@ -41,15 +44,15 @@ Accomplished Senior DevOps Engineer adept at delivering business value through t
 
     * **Responsibilities:**
 
-      * Developed and maintain AWS infrastructure using Terraform and Kubernetes, ensuring optimal performance, low cost and security.
-      * Improved IAM policies and user management, segregated permissions by environment and service which increased security and auditability.
-      * Reconfigured Lambdas to run within VPCs, enhancing the security posture of the company.
-      * Participates in on-call rotation, promptly addressing and mitigating incidents, ensuring system stability, and minimizing downtime.
+      * Developed and maintained AWS infrastructure with Terraform and Kubernetes, balancing performance, cost, and security.
+      * Improved IAM policies and user management, segregating permissions by environment and service for security and auditability.
+      * Reconfigured Lambdas to run within VPCs, improving the company's security posture.
+      * Participated in the on-call rotation, promptly mitigating incidents and minimizing downtime.
       * Led the migration of multiple microservices to Kubernetes ServiceAccount authentication, reducing reliance on AWS IAM access keys.
-      * Streamlined and automates RDS snapshot management, optimizing resource usage and lowering costs.
-      * Conducted security reviews of team repositories, ensuring compliance with best practices and company standards.
-      * Collaborated with the team to plan and implement migration strategies for environment secrets to AWS Secrets Manager.
-      * Implemented external secrets provider in Kubernetes environments, syncing secrets with AWS Secrets Manager and improving security posture.
+      * Streamlined and automated RDS snapshot management, optimizing resource usage and lowering costs.
+      * Conducted security reviews of team repositories against best practices and company standards.
+      * Planned and implemented the migration of environment secrets to AWS Secrets Manager.
+      * Implemented an external secrets provider in Kubernetes, syncing secrets with AWS Secrets Manager.
 
   * ### DevOps Engineer (Jan 2021 - Aug 2022)
 
@@ -58,14 +61,12 @@ Accomplished Senior DevOps Engineer adept at delivering business value through t
 
     * **Responsibilities:**
 
-      * Demonstrated AWS, Linux, OOP, and scripting proficiency.
       * Built secure and scalable services in AWS.
       * Wrote dynamic infrastructure as code in Ansible.
-      * Participated in on-call rotation, promptly addressing and mitigating incidents, ensuring system stability, and minimizing downtime.
       * Automated deployments using Jenkins.
-      * Performed zero downtime security and usability upgrades.
-      * Miscellaneous automation scripting.
+      * Performed zero-downtime security and usability upgrades.
       * Built custom Microsoft Teams and Slack integrations.
+      * Participated in the on-call rotation, promptly mitigating incidents and minimizing downtime.
 
   * ### Software Engineer (Jan 2020 - Jan 2021)
 
@@ -74,8 +75,8 @@ Accomplished Senior DevOps Engineer adept at delivering business value through t
 
     * **Responsibilities:**
 
-      * Backend Java Developer - Developed business logic, database change sets, APIs, and automated testing tools.
-      * Participated in on-call rotation, promptly addressing and mitigating incidents, ensuring system stability and minimizing downtime.
+      * Backend Java development covering business logic, database change sets, APIs, and automated testing tools.
+      * Participated in the on-call rotation, promptly mitigating incidents and minimizing downtime.
 
   * ### Software Engineer Intern (Jan 2019 - Jan 2020)
 
@@ -84,7 +85,7 @@ Accomplished Senior DevOps Engineer adept at delivering business value through t
 
     * **Responsibilities:**
 
-      * Backend Java Developer - Wrote selunium UI tests, ensuring streamlined automated testing and the stability of our UI.
+      * Backend Java development. Wrote Selenium UI tests, ensuring streamlined automated testing and UI stability.
 
   * ### Technology Consultant (Aug 2016 - Dec 2018)
 
@@ -93,60 +94,65 @@ Accomplished Senior DevOps Engineer adept at delivering business value through t
 
     * **Responsibilities:**
 
-      * Knowledge of advanced computer repair relating to hardware and software.
-      * Explained services and technology to help meet client needs.
-      * Coached the sales team on how to best deliver technological solutions.
+      * Advanced computer repair across hardware and software.
+      * Explained services and technology to meet client needs.
+      * Coached the sales team on delivering technological solutions.
 
 ## Skills
 
+  * ### AI Engineering
+
+    * Production experience with the Anthropic Messages API: agent tool loops, tool design, server tools (code execution, web search/fetch), prompt caching, and context compaction.
+    * Built and operate an org-wide AI agent platform. See [Patchy](https://www.calebolson.space/portfolio).
+    * Claude Code for agentic coding workflows: repo analysis, automated PRs, skills systems, and plugins.
+    * Agent orchestration with LangGraph and tracing/evaluation with LangSmith.
+    * LLM cost engineering and observability: token accounting, caching strategy, Datadog dashboards.
+
   * ### Cloud Technologies
-  
-    * Expertise in Amazon Web Services (AWS) including services like EC2, S3, AWS SecretsManager, Route53, IAM, RDS, and Lambda.
-    * Profienct in Kubernetes Cluster Management including tuning nodes and deployments for optimal efficiency.
+
+    * Expertise in Amazon Web Services (AWS) including EC2, S3, Secrets Manager, Route53, IAM, RDS, and Lambda.
+    * Proficient in Kubernetes cluster management, including tuning nodes and deployments for efficiency.
 
   * ### Infrastructure as Code
 
-    * Proficient in using Terraform and Ansible.
+    * Proficient in Terraform and Ansible.
     * Experience with AWS CloudFormation.
 
   * ### Continuous Integration/Delivery
 
-    * Proficient in Jenkins, Travis CI, and GitHub Actions.
-  
+    * Proficient in GitHub Actions, Jenkins, and Travis CI.
+
   * ### Containerization
 
-    * Skilled in Docker, Docker Compose, and Portainer for creating and managing containers.
+    * Skilled in Docker, Docker Compose, and Portainer.
 
   * ### Programming and Scripting
 
-    * Proficient in Java.
-    * Proficient in Python and Bash.
+    * Proficient in JavaScript/Node.js, Python, Bash, and Java.
     * Comfortable with Golang.
-    * Experienced in Object-Oriented Programming (OOP).
+    * Experienced in object-oriented programming (OOP).
 
   * ### Monitoring and Security
 
-    * Proficient with CloudWatch, Kibana, Datadog, Loggly, and PagerDuty for system monitoring.
-    * Expertise in security best practices and an InfoSec participant.
+    * Proficient with Datadog, CloudWatch, Kibana, Loggly, and PagerDuty.
+    * Expertise in security best practices and an active InfoSec participant.
 
   * ### Database Management
 
-    * Proficient with RDS & DocDB snapshot management
+    * Proficient with RDS & DocumentDB snapshot management and Redis.
     * Comfortable with MySQL.
 
   * ### Communication and Collaboration
 
-    * Excellent communication skills with a proven track record of collaborating with cross-functional teams.
-    * Proficient in developing custom integrations for Microsoft Teams and Slack.
+    * Proven track record of collaborating with cross-functional teams.
+    * Proficient in developing custom integrations for Slack and Microsoft Teams.
 
   * ### Other
 
-    * Knowledge of advanced computer repair related to hardware and software.
-    * Experience with FreeNAS and TrueNAS
-    * Expertise in Linux OS
-    * Proficient in ZFS
-    * Experience with using Angular and Nginx for web development.
+    * Expertise in Linux, proficient in ZFS, and experience with FreeNAS/TrueNAS.
+    * Experience with Angular and Nginx for web development.
     * Experience with OpenStack for managing cloud computing platforms.
+    * Advanced computer repair across hardware and software.
 
 ## Certificates, Awards & Achievements
 
@@ -174,7 +180,7 @@ Accomplished Senior DevOps Engineer adept at delivering business value through t
   * ### Hackathon Winner
     * **Awarder:** DispatchMe
     * **Criteria:** Most Technically Satisfying
-    * **Summary:** As a key contributor in a cross-company team between Dispatch and Youreka, we architected a AWS solution to improve the frontend user experience during image uploads to Salesforce. I led the design and implementation of a system leveraging AWS Lambda and S3 for image decompression and storage, utilizing Terraform for infrastructure code. Despite challenging circumstances, we successfully delivered the project and won the "Most Technically Satisfying" award at the Hackathon, leading to further discussions about moving the project into production.
+    * **Summary:** As a key contributor in a cross-company team between Dispatch and Youreka, we architected an AWS solution to improve the frontend user experience during image uploads to Salesforce. I led the design and implementation of a system leveraging AWS Lambda and S3 for image decompression and storage, utilizing Terraform for infrastructure code. Despite challenging circumstances, we successfully delivered the project and won the "Most Technically Satisfying" award at the Hackathon, leading to further discussions about moving the project into production.
     * #### Dates Awarded
       * Apr. 21, 2023
 
@@ -203,6 +209,11 @@ Accomplished Senior DevOps Engineer adept at delivering business value through t
 
 ## Projects
 
+  * ### [Patchy: AI Agent Platform](https://www.calebolson.space/portfolio)
+
+    * AI assistant for Dispatch Product & Engineering built on the Anthropic Messages API. One conversation across Slack, GitHub, and Jira, embedded Claude Code sessions that open PRs, and progress toward autonomous ticket-to-PR workflows. Full case study on the portfolio page.
+    * Keywords: Anthropic API, Claude Code, LangGraph, Node.js, Kubernetes, Redis
+
   * ### [Citizen Science Aerial Image Aggregation](https://github.com/calscoo/csaia_python)
 
     * Web application that supports drone flight uploads, extracts metadata from drone images, stores data for efficient querying, and supports building composite images.
@@ -210,13 +221,13 @@ Accomplished Senior DevOps Engineer adept at delivering business value through t
 
   * ### [Personal Website](https://calebolson.space/)
 
-    * A simple portfolio website that showcases my technical ability. This website is developed, deployed in AWS, and maintained by myself.
-    * Keywords: Golang, AWS, Hugo
+    * This portfolio website, developed, deployed, and maintained by myself in AWS.
+    * Keywords: Hugo, Terraform, AWS Amplify, GitHub Actions
 
-  * ### [Community Relations](https://github.com/calscoo/communityrelations)
+  * ### [Homelab](https://www.calebolson.space/portfolio)
 
-    * A simple algorithm for detecting relationships between communities in network datasets.
-    * Keywords: Python
+    * Automated provisioning and management of a home media and infrastructure server via Ansible, Docker Compose, and GitHub Actions: 25+ containerized services, ZFS storage, Grafana/Prometheus monitoring, and a Terraform-provisioned AWS test twin. Private repo. Access available on request.
+    * Keywords: Ansible, Docker Compose, GitHub Actions, Terraform, ZFS, Grafana, Prometheus
 
 ## Education
 
@@ -226,7 +237,7 @@ Accomplished Senior DevOps Engineer adept at delivering business value through t
     * **Degree:** BS, Computer Science
     * **GPA:** 3.7
 
-  * ### Bismarck State University (Fall 2016 - Spring 2018)
+  * ### Bismarck State College (Fall 2016 - Spring 2018)
 
     * **Location:** Bismarck, ND
     * **Degree:** ASSOC, Science
