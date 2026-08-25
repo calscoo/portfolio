@@ -3,7 +3,7 @@ title: "Portfolio"
 type: "pdf-page"
 ---
 
-Selected work in AI platform engineering and DevOps. The resume says what I've done. This page shows how I build.
+Selected work in AI platform engineering and DevOps.
 
 ## Patchy: an AI teammate for engineering
 
@@ -35,7 +35,13 @@ The current frontier is moving Patchy from on-mention to autonomous. Two threads
 * **Sprint queue:** Patchy pulls tickets from the Jira sprint queue and works them end to end (branch, implementation, PR) instead of waiting to be asked.
 * **Loop:** a LangGraph-based service that Patchy delegates work to over an internal API, with runs recorded in Redis and traced in LangSmith. The target workflow: a request arrives by chat, gets evaluated and categorized into a ticket, fans out to parallel Claude Code workers, and converges on an eval gate before feeding an agentic release workflow, with humans at two review points instead of in the middle of every step.
 
-*Internal tool. The architecture is shared here, the code and data stay private.*
+## Homelab
+
+Fully automated provisioning and management of a home media and infrastructure server, dual-Xeon Supermicro hardware with ZFS storage pools, driven end to end by Ansible, Docker Compose, and GitHub Actions. A 25+ container Compose stack (media services, Immich photo management, Mattermost, and [Pochi](https://github.com/calscoo/pochi), a self-hosted AI assistant bot I built for Mattermost) is templated by Ansible and deployed by workflow. Monitoring runs on Grafana, Prometheus, node-exporter, and cAdvisor, and remote access is locked down with SSH hardening and Tailscale. A Terraform-provisioned "cloud lab" twin on AWS EC2, with mocked ZFS pools, lets me test playbook changes before they touch the real hardware.
+
+Private repo. Access available on request.
+
+Keywords: Ansible, Docker Compose, GitHub Actions, Terraform, ZFS, Grafana, Prometheus, Tailscale
 
 ## This website
 
@@ -48,11 +54,3 @@ Keywords: Hugo, Terraform, AWS Amplify, GitHub Actions
 Web application supporting drone flight uploads: extracts metadata from drone images, stores it for efficient querying, and builds composite images. [GitHub →](https://github.com/calscoo/csaia_python)
 
 Keywords: Python, MySQL, Flask, Angular, OpenStack
-
-## Homelab
-
-Fully automated provisioning and management of a home media and infrastructure server, dual-Xeon Supermicro hardware with ZFS storage pools, driven end to end by Ansible, Docker Compose, and GitHub Actions. A 25+ container Compose stack (media services, Immich photo management, Mattermost, and [Pochi](https://github.com/calscoo/pochi), a self-hosted AI assistant bot I built for Mattermost) is templated by Ansible and deployed by workflow. Monitoring runs on Grafana, Prometheus, node-exporter, and cAdvisor, and remote access is locked down with SSH hardening and Tailscale. A Terraform-provisioned "cloud lab" twin on AWS EC2, with mocked ZFS pools, lets me test playbook changes before they touch the real hardware.
-
-Private repo. Access available on request.
-
-Keywords: Ansible, Docker Compose, GitHub Actions, Terraform, ZFS, Grafana, Prometheus, Tailscale
