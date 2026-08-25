@@ -35,6 +35,16 @@ The current frontier is moving Patchy from on-mention to autonomous. Two threads
 
 Keywords: Anthropic Messages API, Claude Code, LangGraph, LangSmith, Node.js, Kubernetes, Redis, Datadog, Slack, GitHub, Jira, prompt caching, agent orchestration
 
+## Making Kubernetes maintenance boring
+
+Our EKS environments used to be unpredictable, the upgrade path was murky, and system maintenance felt like performing open-heart surgery. I got sick of it, rebuilt the cluster infrastructure in Terraform, and wrapped its lifecycle in a rigid quarterly playbook. Maintenance has been a breeze ever since, and our HA/DR posture has never been stronger.
+
+* **One stack, every environment.** Environment-agnostic Terraform root modules with per-environment variable and backend files, so dev, staging, sandbox, and production are the same code with different pins. Kubernetes version, EKS add-ons, node AMIs (AL2023 and Bottlerocket, x86 and Arm), and Helm chart versions (Datadog, cluster autoscaler, KEDA, load balancer controller, and more) all live in tfvars, which turns a cluster upgrade into a reviewable diff.
+* **A rigid quarterly playbook.** Every maintenance window runs the same documented runbook: preparation steps, maintenance night, testing, expected outcome, and a rollback procedure, with each step assigned an owner and tracked per environment. Changes roll dev through production in stages, and helper tooling generates the exact version-bump Terraform for each quarter.
+* **Predictability pays out.** Rolling node-group replacements keep upgrades boring, multi-arch node groups enabled Graviton migrations (including moving DocumentDB from x86 to Arm) for meaningful cost savings, and high availability and disaster recovery are engineered into the stack rather than bolted on.
+
+Keywords: Terraform, AWS EKS, Kubernetes, Bottlerocket, Graviton, Helm, KEDA, DocumentDB, HA/DR
+
 ## The best secret is no secret
 
 Stored credentials have to be secured, rotated, audited, and eventually they leak. I spent the last few years removing them from Dispatch's platform, one credential class at a time, and replacing them with short-lived, identity-based auth.

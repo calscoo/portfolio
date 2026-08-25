@@ -25,7 +25,7 @@ Senior DevOps Engineer building AI agent platforms on production infrastructure.
       * Secretless Authentication: Replaced database passwords with IAM auth for DocumentDB and RDS Postgres atop Kubernetes workload identity, and cut stored credentials from CI/CD with OIDC federation to AWS and a GitHub App issuing short-lived tokens.
       * Pipeline Optimization: Migrated CI/CD from Travis CI to GitHub Actions.
       * Cost Optimization: Championed cost-conscious development practices and led initiatives that reduced cloud infrastructure spend.
-      * Operational Excellence: Owned production system maintenance and change management, with rigorous testing in lower environments, and participate in the on-call rotation.
+      * EKS Platform Ownership: Rebuilt multi-environment EKS cluster infrastructure in Terraform and established a rigid quarterly maintenance playbook (staged rollouts, testing, rollback), turning risky upgrades into routine work and enabling Graviton migrations that cut compute costs. Participate in the on-call rotation.
       * Leadership: Mentored junior DevOps engineers and partnered with stakeholders to prioritize the infrastructure and AI roadmap.
 
   * ### DevOps Engineer, [Dispatch](https://dispatch.me/) (Aug 2022 - Aug 2023, Remote)
