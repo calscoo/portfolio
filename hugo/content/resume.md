@@ -30,12 +30,11 @@ Senior DevOps Engineer building AI agent platforms on production infrastructure.
       * Team Development: Onboarded and mentored junior DevOps engineers and provided technical training across the stack.
       * Strategic Planning: Partnered with stakeholders to develop and prioritize the product roadmap, aligning infrastructure and AI initiatives with company objectives.
       * Technical Debt Reduction: Identified and documented technical debt, formulated optimization strategies, and led re-architecture efforts for performance and scalability.
-      * Operational Excellence: Led production system maintenance and change management, with rigorous testing in lower environments to minimize downtime and risk.
-      * Pipeline Optimization: Migrated CI/CD from Travis CI to GitHub Actions and hardened pipeline security.
+      * Operational Excellence: Owned and production system maintenance and change management, with rigorous testing in lower environments to minimize downtime and risk.
+      * Pipeline Optimization: Migrated CI/CD from Travis CI to GitHub Actions and hardened pipeline security with password-less authentication.
       * Cost Optimization: Championed cost-conscious development practices and led initiatives that reduced cloud infrastructure spend.
       * Kubernetes Expertise: Established resource-usage monitoring and tuned deployments and nodes for efficiency.
       * Incident Management: Participate in the on-call rotation and incident mitigation.
-      * Golang for Infrastructure: Leveraged Go for infrastructure and security tasks, including proof-of-concept backend services, service-account integration testing, and Go-based deployment tooling.
 
   * ### DevOps Engineer (Aug 2022 - Aug 2023)
 
@@ -214,20 +213,20 @@ Senior DevOps Engineer building AI agent platforms on production infrastructure.
     * AI assistant for Dispatch Product & Engineering built on the Anthropic Messages API. One conversation across Slack, GitHub, and Jira, embedded Claude Code sessions that open PRs, and progress toward autonomous ticket-to-PR workflows. Full case study on the portfolio page.
     * Keywords: Anthropic API, Claude Code, LangGraph, Node.js, Kubernetes, Redis
 
-  * ### [Citizen Science Aerial Image Aggregation](https://github.com/calscoo/csaia_python)
+  * ### [Homelab](https://www.calebolson.space/portfolio)
 
-    * Web application that supports drone flight uploads, extracts metadata from drone images, stores data for efficient querying, and supports building composite images.
-    * Keywords: Python, MySQL, Flask, Angular, OpenStack
+    * Automated provisioning and management of a home media and infrastructure server via Ansible, Docker Compose, and GitHub Actions: 25+ containerized services, ZFS storage, Grafana/Prometheus monitoring, and a Terraform-provisioned AWS test twin. Private repo. Access available on request.
+    * Keywords: Ansible, Docker Compose, GitHub Actions, Terraform, ZFS, Grafana, Prometheus
 
   * ### [Personal Website](https://calebolson.space/)
 
     * This portfolio website, developed, deployed, and maintained by myself in AWS.
     * Keywords: Hugo, Terraform, AWS Amplify, GitHub Actions
 
-  * ### [Homelab](https://www.calebolson.space/portfolio)
+  * ### [Citizen Science Aerial Image Aggregation](https://github.com/calscoo/csaia_python)
 
-    * Automated provisioning and management of a home media and infrastructure server via Ansible, Docker Compose, and GitHub Actions: 25+ containerized services, ZFS storage, Grafana/Prometheus monitoring, and a Terraform-provisioned AWS test twin. Private repo. Access available on request.
-    * Keywords: Ansible, Docker Compose, GitHub Actions, Terraform, ZFS, Grafana, Prometheus
+    * Web application that supports drone flight uploads, extracts metadata from drone images, stores data for efficient querying, and supports building composite images.
+    * Keywords: Python, MySQL, Flask, Angular, OpenStack
 
 ## Education
 
