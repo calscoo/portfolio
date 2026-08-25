@@ -10,22 +10,19 @@ type: "pdf-page"
 * **Location:** Greater Seattle Area, WA
 * **Arrangement:** Remote/Hybrid Work Preferred
 
-Senior DevOps Engineer building AI agent platforms on production infrastructure. Designed, built, and operate an AI assistant used daily across an engineering organization, an Anthropic-API agent platform spanning Slack, GitHub, and Jira that analyzes code, opens pull requests, and is progressing toward autonomous ticket-to-PR workflows. That work sits on a proven DevOps foundation: AWS, Terraform, Kubernetes, CI/CD, cloud cost optimization, and security best practices. Strong communicator with a track record of mentoring, knowledge sharing, and leading cross-functional initiatives.
+Senior DevOps Engineer with deep AWS, Terraform, and Kubernetes experience and a track record of delivering reliable infrastructure, cloud cost optimization, secure CI/CD, and platform security. Recently that has included building and operating an AI assistant used daily across the engineering organization. Strong communicator with a passion for mentoring, knowledge sharing, and leading cross-functional initiatives.
 
 ## Experience
 
   * ### Senior DevOps Engineer, [Dispatch](https://dispatch.me/) (Aug 2023 - Present, Remote)
 
-      * AI Agent Platform: Designed, built, and operate [Patchy](https://www.calebolson.space/portfolio), an AI assistant for Product & Engineering built on the Anthropic Messages API (Kubernetes-deployed, Redis-backed, Datadog-monitored), handling Jira, release, code, infrastructure, and incident-response work from Slack, GitHub, and Jira with a single conversation identity across all three surfaces.
-      * Agentic Coding Workflows: Embedded Claude Code sessions in the platform so the agent analyzes repos, branches, commits, and opens pull requests from a Slack mention. Built a reusable skills system backed by S3 and integrated LSP-based code intelligence.
-      * Autonomous Agents: Driving the shift from on-mention to autonomous work, including Jira sprint-queue execution where the agent works tickets end to end, and a LangGraph/LangSmith-based delegation service targeting parallel Claude Code workers behind eval gates with human review points.
-      * LLM Cost & Reliability Engineering: Engineered prompt caching, server-side context compaction, token accounting, and BM25 deferred tool discovery to keep an always-on agent affordable, and instrumented it with Datadog dashboards and structured logging.
-      * AI Guardrails: Implemented role-based tool permissions, cross-platform identity enrichment (Slack/Atlassian/GitHub), and gated kubectl/AWS execution so an org-wide agent operates within least-privilege boundaries.
+      * AI Agent Platform: Designed, built, and operate [Patchy](https://www.calebolson.space/portfolio), an AI assistant for Product & Engineering on the Anthropic Messages API (Kubernetes-deployed, Redis-backed, Datadog-monitored), spanning Slack, GitHub, and Jira with embedded Claude Code sessions that analyze repos and open pull requests. Engineered prompt caching and token accounting for cost control, plus role-based permissions and gated infrastructure access as guardrails.
+      * Autonomous Agents: Driving Patchy from on-mention to autonomous work, including Jira sprint-queue execution where the agent works tickets end to end and a LangGraph/LangSmith delegation service with eval gates and human review points.
       * InfoSec: Spearheaded SOC2/PCI compliance initiatives, led access control improvements, and conducted policy reviews.
       * Secretless Authentication: Replaced database passwords with IAM auth for DocumentDB and RDS Postgres atop Kubernetes workload identity, and cut stored credentials from CI/CD with OIDC federation to AWS and a GitHub App issuing short-lived tokens.
       * Pipeline Optimization: Migrated CI/CD from Travis CI to GitHub Actions.
       * Cost Optimization: Championed cost-conscious development practices and led initiatives that reduced cloud infrastructure spend.
-      * EKS Platform Ownership: Rebuilt multi-environment EKS cluster infrastructure in Terraform and established a rigid quarterly maintenance playbook (staged rollouts, testing, rollback), turning risky upgrades into routine work and enabling Graviton migrations that cut compute costs. Participate in the on-call rotation.
+      * EKS Platform Ownership: Rebuilt multi-environment EKS cluster infrastructure in Terraform and established a rigid quarterly maintenance playbook (staged rollouts, testing, rollback), turning risky upgrades into routine work and enabling Graviton migrations that cut compute costs.
       * Leadership: Mentored junior DevOps engineers and partnered with stakeholders to prioritize the infrastructure and AI roadmap.
 
   * ### DevOps Engineer, [Dispatch](https://dispatch.me/) (Aug 2022 - Aug 2023, Remote)
