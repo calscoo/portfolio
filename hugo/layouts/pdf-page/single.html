@@ -17,17 +17,18 @@
 .download-btn {
     display: inline-block;
     padding: 8px 16px;
-    background-color: #3366cc;
-    color: #f8f8ff !important;
+    background-color: transparent;
+    border: 1px solid #e8a33d;
+    color: #e8a33d !important;
     font-family: 'Fira Mono', monospace;
     font-size: 0.85rem;
     text-decoration: none;
-    border-radius: 4px;
     white-space: nowrap;
-    transition: background-color 0.2s;
+    transition: background-color 0.2s, color 0.2s;
 }
 .download-btn:hover {
-    background-color: #4477dd;
+    background-color: #e8a33d;
+    color: #121110 !important;
 }
 </style>
 {{ end }}

@@ -2,7 +2,7 @@
 
 .postDate {
   float: right;
-  color: $white;
+  color: $dim;
 }
 
 .postTitle {
@@ -24,7 +24,8 @@
 
 .postListItem {
   padding: 20px;
-  background-color: $black;
+  background-color: $panel;
+  border: 1px solid $border;
   margin-bottom: 20px;
 }
 

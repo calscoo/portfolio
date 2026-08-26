@@ -28,8 +28,12 @@
       display: inline;
       margin: 5px;
       a {
-        color: $white;
+        color: $dim;
         text-decoration: none;
+
+        &:hover {
+          color: $accentHover;
+        }
       }
     }
   }

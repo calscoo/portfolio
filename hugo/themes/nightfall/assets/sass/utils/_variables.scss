@@ -1,11 +1,23 @@
-// Colors
-$darkGrey: #323232;
-$white: #f8f8ff;
-$black: #2f2f2f;
-$blue: #3366cc;
+// Colors — warm black terminal with amber phosphor accent
+$background: #121110;
+$panel: #1a1815;
+$border: #2a261f;
+$text: #e9e3d6;
+$bright: #f7f3e8;
+$textSoft: #b8b0a0;
+$dim: #8a8272;
+$dimDarker: #565043;
+$accent: #e8a33d;
+$accentHover: #f5c065;
 
-$backgroundDarker: #252627;
-$backgroundDark: #292a2d;
+// Legacy names kept so existing rules pick up the new palette
+$darkGrey: $panel;
+$white: $text;
+$black: $panel;
+$blue: $accent;
+
+$backgroundDarker: $panel;
+$backgroundDark: $background;
 
 //Fonts
 $fontHeader: 'Fira Mono', monospace;

@@ -1,11 +1,30 @@
 @import "../utils/variables";
 
 .footer {
-  padding: 15px;
-  text-align: center;
-  background-color: $backgroundDarker;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 13px 20px;
+  font-family: $fontCode;
+  font-size: 0.8em;
+  color: $dim;
+  background-color: $panel;
+  border-top: 1px solid $border;
+}
+
+.footerAccent {
+  color: $accent;
 }
 
 .footerLink {
-  color: $white;
+  color: $text;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    gap: 4px;
+    text-align: center;
+  }
 }

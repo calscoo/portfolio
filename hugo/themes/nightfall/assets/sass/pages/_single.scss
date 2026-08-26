@@ -2,6 +2,18 @@
 
 .postWrapper {
     text-align: left;
+    color: #cfc9bc;
+
+    h1 {
+        color: $bright;
+    }
+
+    h2 {
+        color: $bright;
+        border-bottom: 2px solid $accent;
+        padding-bottom: 8px;
+        margin-top: 2.4em;
+    }
 }
 
 .postMetadata {

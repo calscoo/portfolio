@@ -17,13 +17,49 @@
 
         <div class="content vertical">
             <main class="main">
+                {{ $prompt := printf "%s@%s:~ $" .Site.Params.user .Site.Params.hostname }}
                 <div class="indexWrapper">
-                    <div>
-                        <h1 class="indexHeader">{{ .Site.Params.author }}</h1>
-                        <h1>{{ .Site.Params.field }}</h1>
+                    <div class="indexColumns">
+                        <div class="indexMain">
+                            <p class="promptLine active">{{ $prompt }} whoami<span class="cursor"></span></p>
+                            <h1 class="indexHeader">{{ .Site.Params.author }}</h1>
+                            <p class="indexRole">{{ .Site.Params.field }}</p>
+                            <p class="indexTagline">{{ .Site.Params.tagline }}</p>
+
+                            <p class="promptLine">{{ $prompt }} ls -la ~/<span class="cursor"></span></p>
+                            <ul class="lsList">
+                                {{ range .Site.Menus.header }}
+                                <li>
+                                    <span class="lsMode">drwxr-xr-x</span>
+                                    <a class="lsName" href="{{ .URL | absURL }}">{{ .Name }}/</a>
+                                    <span class="lsDesc">{{ .Params.description }}</span>
+                                </li>
+                                {{ end }}
+                            </ul>
+
+                            {{ if isset .Site.Params "social" }}
+                                {{ partial "social.html" . }}
+                            {{ end }}
+                        </div>
+
+                        <figure class="indexPhoto">
+                            <img src="{{ "profile.jpg" | absURL }}" alt="{{ .Site.Params.author }}">
+                            <figcaption>~/profile.jpg</figcaption>
+                        </figure>
                     </div>
-                    {{ if isset .Site.Params "social" }}
-                        {{ partial "social.html" . }}
+
+                    {{ if isset .Site.Params "work" }}
+                    <div class="workSection">
+                        <p class="promptLine">{{ $prompt }} head -3 portfolio.md<span class="cursor"></span></p>
+                        <ul class="workList">
+                            {{ range .Site.Params.work }}
+                            <li class="workItem">
+                                <a class="workName" href="{{ .url | absURL }}">{{ .name }}</a>
+                                <span class="workDesc">{{ .description }}</span>
+                            </li>
+                            {{ end }}
+                        </ul>
+                    </div>
                     {{ end }}
                 </div>
             </main>
@@ -32,6 +68,16 @@
 
         {{ partial "footer.html" . }}
     </div>
+
+    <script>
+        const prompts = document.querySelectorAll('.promptLine');
+        prompts.forEach((p) => {
+            p.addEventListener('mouseenter', () => {
+                prompts.forEach((q) => q.classList.remove('active'));
+                p.classList.add('active');
+            });
+        });
+    </script>
 
 </body>
 

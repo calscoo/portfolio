@@ -4,24 +4,31 @@ theme = "nightfall"
 
 [menu]
   [[menu.header]]
-    name = "blog"
-    weight = 0
-    url = "blog"
-  [[menu.header]]
     name = "portfolio"
     weight = 1
     url = "portfolio"
+    [menu.header.params]
+      description = "some of my most notable projects"
   [[menu.header]]
     name = "resume"
     weight = 2
     url = "resume"
+    [menu.header.params]
+      description = "experience, skills, education"
+  [[menu.header]]
+    name = "blog"
+    weight = 3
+    url = "blog"
+    [menu.header.params]
+      description = "occasional notes"
 
 [params]
 author = "Caleb Olson"
-user = "caleb"
-hostname = "gohugo.io"
+user = "calebolson"
+hostname = "space"
 title = "calebolson.space"
-field = "Engineer"
+field = "Senior DevOps Engineer"
+tagline = "AWS · Kubernetes · Terraform · AI agent platforms"
 
 readingTime = true  # Show reading time on post page
 published = true  # Show published data on post page
@@ -40,3 +47,18 @@ url = "https://www.linkedin.com/in/calebolson-engineer/"
 key = 3
 name = "email"
 url = "mailto:caleb.so.pnw@gmail.com"
+
+[[params.work]]
+name = "patchy"
+url = "portfolio/#patchy-an-ai-teammate-for-engineering"
+description = "An AI teammate for engineering. Responds in Slack, GitHub, and Jira with one shared memory, and opens its own pull requests."
+
+[[params.work]]
+name = "boring-kubernetes"
+url = "portfolio/#making-kubernetes-maintenance-boring"
+description = "EKS IaC rebuilt in environment agnostic Terraform + a rigid quarterly maintenance playbook."
+
+[[params.work]]
+name = "no-secrets"
+url = "portfolio/#the-best-secret-is-no-secret"
+description = "The best secret is no secret. Workload identity, passwordless databases, and keyless CI/CD, cutting one credential class at a time."
