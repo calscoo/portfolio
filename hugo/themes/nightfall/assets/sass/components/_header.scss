@@ -101,6 +101,7 @@
     position: fixed;
     top: 60px;
     left: 0;
+    z-index: 10;
     background-color: $backgroundDark;
     overflow: hidden;
     max-height: 0;
