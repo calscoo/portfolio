@@ -16,8 +16,8 @@ Lead Platform Engineer with deep AWS, Terraform, and Kubernetes experience, owni
 
   * ### Lead Platform Engineer, [Dispatch](https://dispatch.me/) (Oct 2026 - Present, Remote)
 
-      * Platform: Own Dispatch's platform end to end, including AWS infrastructure, Terraform IaC, EKS and database maintenance, HA/DR, and cloud cost management.
-      * Security, Compliance & Technical Debt: Drive security, compliance, and technical-debt reduction across infrastructure and application code, from DMARC enforcement and an SSO migration to CodeQL code scanning and moving legacy CloudFormation stacks and 70+ DNS zones into Terraform.
+      * Platform: Own the platform end to end, including AWS infrastructure, Terraform IaC, HA/DR, and cloud costs. Lead quarterly maintenance across OS, EKS, DocumentDB, RDS, Redis, and more, protecting uptime with the least disruptive upgrade path for each, including zero-downtime EKS & RDS upgrades.
+      * Security, Compliance & Technical Debt: Own SOC2 controls and vulnerability patching, and drive the company SSO migration from Google Workspace to Microsoft. Cut technical debt by moving microservices and shared libraries onto standardized CI/CD pipelines and hardened container images, retiring legacy infrastructure (ingress-nginx, x86 node groups, deprecated runtimes, and unused AWS resources), and bringing untracked infrastructure under Terraform.
       * Agentic SDLC: Building an autonomous system that carries the SDLC end to end, so product and customer-support staff can request a feature or fix by talking to a bot and see it shipped to production with minimal human intervention. Driving Patchy from on-mention to autonomous work, including Jira sprint-queue execution where the agent works tickets end to end and a LangGraph/LangSmith delegation service with eval gates and human review points.
 
   * ### Senior DevOps Engineer, [Dispatch](https://dispatch.me/) (Aug 2023 - Oct 2026, Remote)
@@ -58,7 +58,7 @@ Lead Platform Engineer with deep AWS, Terraform, and Kubernetes experience, owni
   * **CI/CD:** GitHub Actions, Jenkins, Travis CI.
   * **Containerization:** Docker, Docker Compose, Portainer.
   * **Programming:** JavaScript/Node.js, Python, Bash, Java, Golang.
-  * **Monitoring & Security:** Datadog, CloudWatch, Kibana, Loggly, PagerDuty, security best practices, active InfoSec participant.
+  * **Monitoring & Security:** Datadog, CloudWatch, Kibana, Loggly, PagerDuty, security best practices.
   * **Databases:** RDS and DocumentDB snapshot management, Redis, MySQL.
 
 ## Certificates, Awards & Achievements
