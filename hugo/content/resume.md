@@ -10,14 +10,19 @@ type: "pdf-page"
 * **Location:** Greater Seattle Area, WA
 * **Arrangement:** Remote/Hybrid Work Preferred
 
-Senior DevOps Engineer with deep AWS, Terraform, and Kubernetes experience and a track record of delivering reliable infrastructure, cloud cost optimization, secure CI/CD, and platform security. Recently that has included building and operating an AI assistant used daily across the engineering organization. Strong communicator with a passion for mentoring, knowledge sharing, and leading cross-functional initiatives.
+Lead Platform Engineer with deep AWS, Terraform, and Kubernetes experience, owning platform infrastructure and driving security, compliance, and technical-debt reduction across both infrastructure and application code. Track record of delivering reliable infrastructure, cloud cost optimization, secure CI/CD, and secretless authentication. Also building an autonomous agentic system that takes features and fixes from a chat request to production. Strong communicator with a passion for mentoring, knowledge sharing, and leading cross-functional initiatives.
 
 ## Experience
 
-  * ### Senior DevOps Engineer, [Dispatch](https://dispatch.me/) (Aug 2023 - Present, Remote)
+  * ### Lead Platform Engineer, [Dispatch](https://dispatch.me/) (Oct 2026 - Present, Remote)
+
+      * Platform: Own Dispatch's platform end to end, including AWS infrastructure, Terraform IaC, EKS and database maintenance, HA/DR, and cloud cost management.
+      * Security, Compliance & Technical Debt: Drive security, compliance, and technical-debt reduction across infrastructure and application code, from DMARC enforcement and an SSO migration to CodeQL code scanning and moving legacy CloudFormation stacks and 70+ DNS zones into Terraform.
+      * Agentic SDLC: Building an autonomous system that carries the SDLC end to end, so product and customer-support staff can request a feature or fix by talking to a bot and see it shipped to production with minimal human intervention. Driving Patchy from on-mention to autonomous work, including Jira sprint-queue execution where the agent works tickets end to end and a LangGraph/LangSmith delegation service with eval gates and human review points.
+
+  * ### Senior DevOps Engineer, [Dispatch](https://dispatch.me/) (Aug 2023 - Oct 2026, Remote)
 
       * AI Agent Platform: Designed, built, and operate [Patchy](https://www.calebolson.space/portfolio), an AI assistant for Product & Engineering on the Anthropic Messages API (Kubernetes-deployed, Redis-backed, Datadog-monitored), spanning Slack, GitHub, and Jira with embedded Claude Code sessions that analyze repos and open pull requests. Engineered prompt caching and token accounting for cost control, plus role-based permissions and gated infrastructure access as guardrails.
-      * Autonomous Agents: Driving Patchy from on-mention to autonomous work, including Jira sprint-queue execution where the agent works tickets end to end and a LangGraph/LangSmith delegation service with eval gates and human review points.
       * InfoSec: Spearheaded SOC2/PCI compliance initiatives, led access control improvements, and conducted policy reviews.
       * Secretless Authentication: Replaced database passwords with IAM auth for DocumentDB and RDS Postgres atop Kubernetes workload identity, and cut stored credentials from CI/CD with OIDC federation to AWS and a GitHub App issuing short-lived tokens.
       * Pipeline Optimization: Migrated CI/CD from Travis CI to GitHub Actions.

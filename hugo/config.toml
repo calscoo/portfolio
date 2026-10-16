@@ -27,8 +27,8 @@ author = "Caleb Olson"
 user = "calebolson"
 hostname = "space"
 title = "calebolson.space"
-field = "Senior DevOps Engineer"
-tagline = "AWS · Kubernetes · Terraform · AI agent platforms"
+field = "Lead Platform Engineer"
+tagline = "AWS · Kubernetes · Terraform · Security · Agentic SDLC"
 
 readingTime = true  # Show reading time on post page
 published = true  # Show published data on post page

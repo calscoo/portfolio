@@ -28,12 +28,12 @@ An org-wide AI agent with infrastructure access needs real access control: role-
 
 ### Toward autonomy
 
-The current frontier is moving Patchy from on-mention to autonomous. Two threads of work:
+The current frontier is an autonomous system that carries the SDLC end to end. Product and customer-support staff describe a feature or a fix to Patchy in plain language, and the work ships to production with minimal human intervention. Two threads of work:
 
 * **Sprint queue:** Patchy pulls tickets from the Jira sprint queue and works them end to end (branch, implementation, PR) instead of waiting to be asked.
-* **Loop:** a LangGraph-based service that Patchy delegates work to over an internal API, with runs recorded in Redis and traced in LangSmith. The target workflow: a request arrives by chat, gets evaluated and categorized into a ticket, fans out to parallel Claude Code workers, and converges on an eval gate before feeding an agentic release workflow, with humans at two review points instead of in the middle of every step.
+* **Loop:** a work-item service that Patchy files requests into. A Postgres state machine orchestrates, and short-lived LangGraph episodes traced in LangSmith execute: an evaluation episode turns the request into a scoped plan, then a dev episode runs coding agents (Claude Code or OpenCode, with the model picked per stage) that open PRs, deploy branch previews, and write QA notes. Humans step in at plan approval, code review, QA, and ship, answering in Slack threads that Patchy turns into verdicts, instead of sitting in the middle of every step.
 
-Keywords: Anthropic Messages API, Claude Code, LangGraph, LangSmith, Node.js, Kubernetes, Redis, Datadog, Slack, GitHub, Jira, prompt caching, agent orchestration
+Keywords: Anthropic Messages API, Claude Code, OpenCode, LangGraph, LangSmith, Node.js, Kubernetes, Postgres, Redis, Datadog, Slack, GitHub, Jira, prompt caching, agent orchestration
 
 ## Making Kubernetes maintenance boring
 
