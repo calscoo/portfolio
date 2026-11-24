@@ -13,7 +13,7 @@ With a little elbow grease, turns out you can. My photos now show on three of th
 * **The screensaver.** The one that starts after the TV sits idle on the home screen or in an app.
 * **The power-off screen.** The LG logo that flashes for a moment when you turn the TV off. Mine shows my own logo now.
 
-## LG doesn't want you
+## LG doesn't want you to
 
 Part of the reason is burn-in. Leave a bright, still image on an OLED long enough and it can wear the panel unevenly. That's fair, but LG's own paintings are bright too, and they change every 10 seconds. My photos change just as often.
 
@@ -46,15 +46,6 @@ Two things I learned on the way. The TV never updates file access times, so chec
 
 I worked all of this out with Claude Code driving the TV over telnet while I watched the screen and reported back. That loop was a good fit for a device with no documentation, where the only way to learn something was to try it and look.
 
-## Making it easy
-
-The target user is someone who rooted their TV once, by following a guide. So:
-
-* `./install.sh` finds the TV on the network, tells you what it's about to do at each step, and asks before it goes on. `./uninstall.sh` puts LG's screens back.
-* It needs nothing extra on a Mac. It uses the bash, `sips`, and `nc` that ship with macOS. The TV downloads the files from Apple's own `nc`, which the macOS firewall lets through without a prompt.
-* Out of the box, it uses its own sample photos and logo, so you can see it work before you pick your own. Then `--screensaver` points it at your photo folder and `--logo` at your logo, and each one changes only its own screen.
-* Photos get center-cropped to 1920x1080, the size the TV draws these screens at. Logos get scaled to about the size of LG's.
-
 ## What else is fair game
 
 With root, you can lay your own file over almost any file the TV reads. It works best on things the TV loads fresh each time, like the power-off logo. I haven't tried these yet, but they're on my list:
@@ -67,6 +58,10 @@ With root, you can lay your own file over almost any file the TV reads. It works
 
 Some things stay off-limits. The first LG logo after a full power cut lives in the bootloader, and changing it is a good way to brick the TV. And apps that LG restores from a factory snapshot, like the input app, ignore code changes, so the trick only works on the files they read.
 
-## Give it a rip!
+## Making it easy
+
+I put together a simple script so anyone with a rooted LG TV can do the same thing. I wrote it for someone who rooted their TV once by following a guide, not someone who lives in a terminal.
+
+It finds the TV on your network, tells you what it's about to do at each step, and asks before it goes on. It comes with a few sample photos and a sample logo, so you can see it work before you pick your own. When you're ready, point it at a folder of your photos, your logo, or both. One more command puts LG's screens back.
 
 The code is on GitHub at [calscoo/webos-custom-screens](https://github.com/calscoo/webos-custom-screens). Rooting is at your own risk, so start at [cani.rootmy.tv](https://cani.rootmy.tv/) to see whether your TV can be rooted at all. I've only run it on my C3 on webOS 23, and I'd love to hear how it goes on other models.
