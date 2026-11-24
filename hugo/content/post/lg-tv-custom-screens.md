@@ -44,7 +44,7 @@ So all 16 names point at the same photo, as hard links. A small Python script wa
 
 Two things I learned on the way. The TV never updates file access times, so checking which photo LG read last was a dead end. And it has no `inotifyd`, so the watcher calls inotify through Python's `ctypes`.
 
-I worked all of this out with Claude Code driving the TV over telnet while I watched the screen and reported back. That loop was a good fit for a device with no documentation, where the only way to learn something was to try it and look.
+I worked all of this out with Claude Code driving the TV over telnet while I watched the screen and reported back. That loop was a good fit for a device with no documentation, where the only way to learn was to try something out and see if it worked.
 
 ## What else is fair game
 
