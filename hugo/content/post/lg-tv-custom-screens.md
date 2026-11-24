@@ -7,11 +7,11 @@ summary: "My own photos on an LG TV's no-signal screen and screensaver, and my o
 
 I bought a 42" LG OLED secondhand, and it came already rooted with [Homebrew Channel](https://github.com/webosbrew/webos-homebrew-channel) installed. All I wanted was to see my own photos when the TV sits idle, instead of LG's built-in art. I've wanted that for years, and every thread I found said the same thing: you can't.
 
-You can. The result is [webos-custom-screens](https://github.com/calscoo/webos-custom-screens), one command that puts your pictures on three of the TV's screens:
+You can. My photos now show on three of the TV's screens:
 
-* **The no-signal screen.** When the device on an HDMI input is off, LG shows a slideshow of paintings.
-* **The screensaver.** After the TV sits idle on the home screen or in an app.
-* **The power-off screen.** The LG logo that shows for a moment when you turn the TV off.
+* **The no-signal screen.** The slideshow of paintings LG shows when the device on an HDMI input is off.
+* **The screensaver.** The one that starts after the TV sits idle on the home screen or in an app.
+* **The power-off screen.** The LG logo that flashes for a moment when you turn the TV off. Mine shows my own logo now.
 
 ## Why everyone says no
 
@@ -23,12 +23,12 @@ That input app is the hard part. The TV doesn't start it from its files at boot.
 
 The input app can't change, but the files it reads can. It shows a random one of 16 fixed images, `modernart_0.jpg` to `modernart_15.jpg`, from one folder, every 10 seconds. A Linux bind mount lays a folder of my photos over that folder under the same 16 names. The input app opens what it always opens and gets my photos.
 
-Nothing in LG's files changes. Undoing it is an unmount, and a startup script in Homebrew Channel puts the mounts back after every restart.
+Nothing in LG's files changes. Pull the mount and the paintings come back.
 
 The other two screens work the same way:
 
-* **Screensaver:** LG's screensaver is a small QML app. I mount my own slideshow over its main file: a 2 second crossfade every 15 seconds, center-cropped to fill the screen, and no slow zoom.
-* **Power-off logo:** the TV's system UI draws `LG_logo.png`, 500x250, centered on black when the TV turns off. I mount my logo over that one file. The system UI loads it fresh at every power-off, so it shows up right away.
+* **Screensaver:** LG's screensaver is a small QML app, so I mount my own slideshow over its main file. While I was in there, I got rid of the slow zoom.
+* **Power-off logo:** the TV's system UI draws `LG_logo.png` centered on black when the TV turns off. I mount my logo over that one file. It loads fresh at every power-off, so the swap shows up the very next time.
 
 ## The shuffle problem
 
@@ -37,8 +37,6 @@ LG picks a random image every 10 seconds, so it happily shows the same photo twi
 So all 16 names point at the same photo, as hard links. A small Python script watches the folder with inotify. When the input app opens one of the names and goes quiet for a second, the script renames all 16 to the next photo in the order. The renames are atomic, so the app never finds a name missing. Whichever name LG picks next, it gets the next photo. After 25 seconds with no opens, the screen has closed, and the next session gets a new order.
 
 Two things I learned on the way. The TV never updates file access times, so checking which photo LG read last was a dead end. And it has no `inotifyd`, so the watcher calls inotify through Python's `ctypes`.
-
-The helper is optional. It uses no network and opens no ports, and the README says so plainly, because "deploys a background listener to your TV" is not a sentence anyone should trust without reading the 100 or so lines themselves.
 
 ## Making it easy
 
@@ -51,8 +49,6 @@ The target user is someone who rooted their TV once, by following a guide. So:
 
 I built it with Claude Code driving the TV over telnet while I watched the screen and reported back. That loop was a good fit for a device with no documentation, where the only way to learn something was to try it and look.
 
-## Caveats
+## Try it yourself
 
-Rooting is at your own risk. Start at [cani.rootmy.tv](https://cani.rootmy.tv/) to see whether your firmware can be rooted. I've tested this on one TV, an LG C3 on webOS 23. And Homebrew Channel's telnet gives anyone on your network root with no password, so turn it off after you install. Your pictures keep working without it.
-
-If you try it on another model, [open an issue](https://github.com/calscoo/webos-custom-screens/issues) and tell me what worked.
+The code is on GitHub at [calscoo/webos-custom-screens](https://github.com/calscoo/webos-custom-screens). Rooting is at your own risk, so start at [cani.rootmy.tv](https://cani.rootmy.tv/) to see whether your TV can be rooted at all. I've only run it on my C3 on webOS 23, and I'd love to hear how it goes on other models.
